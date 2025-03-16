@@ -308,6 +308,7 @@ export const MintNFTTransactions = () => {
 		try {
 			
 			setFetchingResponse(true);
+			
 			const response = await axios.post(API_HOST+PATH,{
 				network,
 				contractName,
