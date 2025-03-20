@@ -16,7 +16,7 @@ Once the Paymaster is created, To use the paymaster and sponsoring transactions,
 To fund the paymaster, copy the Paymaster address using copy button
 
 <div className="flex flex-col items-center">
-    <img src="/img/MOVEMENT/paymaster/fund/fund.png"/>
+    <img className="w-[80%]" src="/img/MOVEMENT/paymaster/fund/fund.jpg"/>
     <span className="font-bold text-[rgb(192,192,192)]">Copy Paymaster Address</span>
 </div>
 <br/>
@@ -24,7 +24,7 @@ To fund the paymaster, copy the Paymaster address using copy button
 Open any wallet which have APT token [(Using Pontem Wallet)](https://pontem.network/)
 
 <div className="flex flex-col items-center">
-    <img src="/img/MOVEMENT/paymaster/fund/fund-1.png"/>
+    <img className="w-[50%]" src="/img/MOVEMENT/paymaster/fund/fund-1.jpg"/>
     <span className="font-bold text-[rgb(192,192,192)]">Pontem Wallet</span>
 </div>
 <br/>
@@ -32,7 +32,7 @@ Open any wallet which have APT token [(Using Pontem Wallet)](https://pontem.netw
 Click on send and transfer APT to Paymaster Address
 
 <div className="flex flex-col items-center">
-    <img src="/img/MOVEMENT/paymaster/fund/fund-2.png"/>
+    <img className="w-[50%]" src="/img/MOVEMENT/paymaster/fund/fund-2.jpg"/>
     <span className="font-bold text-[rgb(192,192,192)]">Send funds to paymaster</span>
 </div>
 <br/>

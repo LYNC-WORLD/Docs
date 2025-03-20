@@ -6,22 +6,22 @@ custom_edit_url: null
 
 # How to Create Paymaster
 
-<span className="text-lg text-[rgb(192,192,192)]">Paymaster is only supported on Movement Porto testnet for now.</span>
+<span className="text-lg text-[rgb(192,192,192)]">Paymaster is supported on both Movement Mainnet and Movement Bardock Testnet.</span>
 
 Once the Project is created, you need to create a Paymaster and register your smart contracts. You will need your deployed smart contract's address.
 
 * After Project registration, click “Paymaster” on the Project page.
 
 <div className="flex flex-col items-center">
-    <img src="/img/MOVEMENT/paymaster/create/create.png"/>
+    <img src="/img/MOVEMENT/paymaster/create/create.jpg"/>
     <span className="font-bold text-[rgb(192,192,192)]">Paymaster Section</span>
 </div>
 <br/>
 
-* Create a Paymaster on Movement Porto Testnet
+* Create a Paymaster on Movement Mainnet
 
 <div className="flex flex-col items-center">
-    <img src="/img/MOVEMENT/paymaster/create/create-1.png"/>
+    <img className="w-[80%]" src="/img/MOVEMENT/paymaster/create/create-1.jpg"/>
     <span className="font-bold text-[rgb(192,192,192)]">Paymaster Creation</span>
 </div>
 <br/>

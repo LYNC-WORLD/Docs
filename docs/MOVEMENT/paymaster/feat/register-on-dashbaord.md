@@ -17,7 +17,7 @@ To begin using the paymaster and sponsoring transactions, you need to register a
 Navigate to [LYNC Dashboard](https://dashboard.lync.world). You can proceed by choosing to continue with Email, Google, or GitHub.
 
 <div className="flex flex-col items-center">
-    <img src="/img/MOVEMENT/paymaster/dashboard/dashboard.avif"/>
+    <img src="/img/MOVEMENT/paymaster/dashboard/dashboard.webp"/>
     <span className="font-bold text-[rgb(192,192,192)]">LYNC Dashboard login</span>
 </div>
 <br/>
@@ -33,7 +33,7 @@ The developer can create a new project just by following these steps:
 
 3. Select Platform and Category from the dropdown
 
-4. In Chain, choose Move
+4. **In Chain, choose Movement Labs**
 
 5. Click “Next” to register your dApp.
 
@@ -41,6 +41,6 @@ The developer can create a new project just by following these steps:
 After creating the project, an API Key will be generated. Copy this value, as you will need it to integrate the LYNC SDK (Paymaster) into your project, whether it's a game, dApp, DeFi application, or more.
 
 <div className="flex flex-col items-center">
-    <img src="/img/MOVEMENT/paymaster/dashboard/dashboard-1.avif"/>
+    <img src="/img/MOVEMENT/paymaster/dashboard/dashboard-1.jpg"/>
     <span className="font-bold text-[rgb(192,192,192)]">API Key from LYNC Dashboard</span>
 </div>
