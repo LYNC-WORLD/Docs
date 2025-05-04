@@ -273,7 +273,7 @@ export default function Home(): ReactNode {
             <div className='flex lg:hidden justify-between gap-2 w-full flex-wrap  items-center '>
               {
                 PRODUCTS.secondLine.map((product, index) => (
-                  <ProductThreePerLine key={index} text={product.text} />
+                  <ProductThreePerLine key={index} text={product.text} url={product.url} />
                 ))
               }
             </div>

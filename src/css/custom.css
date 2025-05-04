@@ -1,5 +1,5 @@
 /* @import url('https://fonts.cdnfonts.com/css/helvetica-neue-5'); */
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
 
 /**
  * Any CSS included here will be global. The classic template
@@ -7,11 +7,9 @@
  * work well for content-centric websites.
  */
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 @layer base {
   input[type="number"]::-webkit-inner-spin-button,
@@ -23,12 +21,12 @@
 @layer utilities {
   /* Hide scrollbar for Chrome, Safari and Opera */
   .no-scrollbar::-webkit-scrollbar {
-      display: none;
+    display: none;
   }
- /* Hide scrollbar for IE, Edge and Firefox */
+  /* Hide scrollbar for IE, Edge and Firefox */
   .no-scrollbar {
-      -ms-overflow-style: none;  /* IE and Edge */
-      scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
   }
 }
 
@@ -36,13 +34,11 @@
   background-color: transparent;
 } */
 
-.header-dashboard-link::before{
+.header-dashboard-link::before {
   content: "Dashboard";
-  
 }
-.header-support-link::before{
+.header-support-link::before {
   content: "Support";
-  
 }
 
 :root {
@@ -56,10 +52,10 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
-  --ifm-font-family-base: 'Helvetica Neue', sans-serif;
+  --ifm-font-family-base: "Helvetica Neue", sans-serif;
 }
 
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #4ce589;
   --ifm-color-primary-dark: #31e177;
   --ifm-color-primary-darker: #24df6f;
@@ -70,16 +66,12 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-
-html[data-theme='dark'] {
+html[data-theme="dark"] {
   --ifm-background-color: #0e0e0e;
   --ifm-background-surface-color: #1b1b1b;
 }
 
-
-
-
-[data-theme='light'] .DocSearch {
+[data-theme="light"] .DocSearch {
   /* --docsearch-primary-color: var(--ifm-color-primary); */
   /* --docsearch-text-color: var(--ifm-font-color-base); */
   --docsearch-muted-color: var(--ifm-color-secondary-darkest);
@@ -97,7 +89,7 @@ html[data-theme='dark'] {
   --docsearch-footer-background: var(--ifm-color-white);
 }
 
-[data-theme='dark'] .DocSearch {
+[data-theme="dark"] .DocSearch {
   --docsearch-text-color: var(--ifm-font-color-base);
   --docsearch-muted-color: var(--ifm-color-secondary-darkest);
   --docsearch-container-background: rgba(47, 55, 69, 0.7);
@@ -119,16 +111,15 @@ html[data-theme='dark'] {
   );
 }
 
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 767px) {
+  .pagination-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: stretch;
+    flex-direction: column;
+  }
+}
 
 /* You can override the default Infima variables here.
 :root {
