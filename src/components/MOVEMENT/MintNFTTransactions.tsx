@@ -52,7 +52,7 @@ const BODY = {
       type: "string",
       description: "Contract address",
       example:
-        "0x98ad5ccd398490068049fd7d28b17c13a96e32b8f59d55c20c0b6d11e6dac166",
+        "0x2c531d75f3b81e499ff68b1e46796734d1e889c1e663a062ddb8b234b32e96d4",
       required: true,
     },
     {
@@ -74,7 +74,7 @@ const BODY = {
       type: "string",
       description: "User's private key",
       example:
-        "0x3285afa30cc941b7870e6ab5e5e2249e36c6c1db1232abc128cc66dc9a13db26",
+        "0x001f599e9674f69e5e8cbdf273cb21e1831033776a4d9c8e3b3519eebce2337e",
       required: true,
     },
     {
@@ -82,7 +82,7 @@ const BODY = {
       type: "string",
       description: "User's account address",
       example:
-        "0x50f694bde9ac4abb60df14b69db4b17b362f64907bc5917cc24098ccd64cb2f2",
+        "0x49d79992af5754e0595a0123a2a0057395872aaa4a9e436a8b99fcba4b73d2c6",
       required: true,
     },
     {
@@ -256,21 +256,18 @@ export const MintNFTTransactions = () => {
     BODY.fields[4].example + ""
   );
 
-  const [argumentsArray, setArgumentsArray] = useState<ArgumentsArray[]>(
-    []
-    // [
-    //     {
-    //         id:0,
-    //         argument: "arg0",
-    //         type: 0,
-    //     },
-    //     {
-    //         id:1,
-    //         argument: "arg1",
-    //         type: 1,
-    //     },
-    //]
-  );
+  const [argumentsArray, setArgumentsArray] = useState<ArgumentsArray[]>([
+    {
+      id: 0,
+      argument: "1",
+      type: 1,
+    },
+    {
+      id: 1,
+      argument: "1",
+      type: 1,
+    },
+  ]);
   const [network, setNetwork] = useState<number>(
     parseInt(BODY.fields[6].example + "")
   );
