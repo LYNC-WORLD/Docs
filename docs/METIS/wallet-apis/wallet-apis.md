@@ -2,11 +2,12 @@
 id: metis-wallet
 custom_edit_url: null
 ---
+
 # Wallet Creation and Transaction APIs
 
-This documentation aims to provide all the necessary information for developers to successfully integrate Supra blockchain features into their applications. By offering detailed explanations, practical examples, and best practices, it ensures developers can confidently implement wallet creation, NFT minting, and transaction functionalities in a secure and efficient manner.
+This documentation aims to provide all the necessary information for developers to successfully integrate Metis blockchain features into their applications. By offering detailed explanations, practical examples, and best practices, it ensures developers can confidently implement wallet creation, NFT minting, and transaction functionalities in a secure and efficient manner.
 
-These API provides endpoints for managing wallets and facilitating transactions on the Supra blockchain. It includes routes for creating and retrieving wallets, minting NFTs, and executing generic transactions. These APIs are designed for developers who need to interact programmatically with the Supra blockchain, enabling a wide range of blockchain-based applications such as dApps, financial services, and NFT marketplaces
+These API provides endpoints for managing wallets and facilitating transactions on the Metis blockchain. It includes routes for creating and retrieving wallets, minting NFTs, and executing generic transactions. These APIs are designed for developers who need to interact programmatically with the Metis blockchain, enabling a wide range of blockchain-based applications such as dApps, financial services, and NFT marketplaces.
 
 ## Key Highlights
 
@@ -20,9 +21,9 @@ These API provides endpoints for managing wallets and facilitating transactions 
 
 5. **Use Cases and Examples**: Throughout the page, practical examples are provided to illustrate common use cases, such as creating a new user wallet, minting NFTs for digital art, or sending tokens for in-app purchases. These examples help developers visualize how the APIs can be integrated into real-world applications.
 
-6. **Developer-Friendly** Format: The page is designed to be developer-friendly, with clear formatting, example code snippets, and straightforward explanations. This format makes it easy for developers of all experience levels to understand and implement the APIs.
+6. **Developer-FriendlyFormat**: The page is designed to be developer-friendly, with clear formatting, example code snippets, and straightforward explanations. This format makes it easy for developers of all experience levels to understand and implement the APIs.
 
-7. **Comprehensive Reference**: Serving as a one-stop reference, the page covers all aspects of wallet and transaction management on the Aptos blockchain. It ensures developers have all the information they need to build and maintain blockchain-based applications efficiently.
+7. **Comprehensive Reference**: Serving as a one-stop reference, the page covers all aspects of wallet and transaction management on the Metis blockchain. It ensures developers have all the information they need to build and maintain blockchain-based applications efficiently.
 
 ## Why These APIs Are Important
 
