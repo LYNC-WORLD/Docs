@@ -1,32 +1,33 @@
 ---
-sidebar_label: 'LYNC Unity Movement SDK'
+sidebar_label: "LYNC Unity Movement SDK"
 id: movement-unity-sdk
 custom_edit_url: null
 ---
 
 # LYNC Unity Movement SDK
 
-LYNC Unity Movement SDK is a no-code Modular Unity SDK supporting PC (MacOS and Windows) and Mobile (Android and iOS) on [Aptos Move (M2)](https://movementlabs.xyz/). 
+LYNC Unity Movement SDK is a no-code Modular Unity SDK supporting PC (MacOS and Windows) , Mobile (Android and iOS) and WebGL on [Aptos Move (M2)](https://movementlabs.xyz/).
 
-**Platform Supported**: PC (Windows and MacOs) and Mobile (Android and iOS)
+**Platform Supported**: PC (Windows and MacOs) , Mobile (Android and iOS) and WebGL
 
-**Network Supported**: Movement Testnet and Devnet
+**Network Supported**: Movement Testnet and Mainnnet
 
 This release includes the following:
 
-* Social Logins
-* Custom Transactions in Social Login
+- Social Logins
+- Custom Transactions in Social Login
 
 ### Get your API Key
 
 Please get your API key before downloading the SDK from [here](https://www.lync.world/form.html)
 
 ### Installation
+
 Download the LYNC Unity Movement SDK from [Here​](https://github.com/LYNC-WORLD/LYNC-Unity-Movement-SDK)
 
 Example Project: https://github.com/LYNC-WORLD/LYNC-Unity-Movement-SDK
 
-Import the SDK .unitypackage file to your project. or simply drag and drop .unitypackage file to your project.
+​Import the SDK .unitypackage file to your project or simply drag and drop .unitypackage file to your project.
 
 <div className="flex flex-col items-center">
     <img className="w-[80%]" src="/img/MOVEMENT/unity-sdk/unity-sdk.png"/>
@@ -44,9 +45,9 @@ The Folder structure looks like this
 </div>
 <br/>
 
-
 ### Integrating LYNC Movement SDK in Unity
-There are 2 Example Projects present in the SDK: 
+
+There are 2 Example Projects present in the SDK:
 
 1. Assets/LYNC-Movement-SDK/Example/MoveExample.unity
 2. Assets/LYNC-Movement-SDK/Example/Example 2.unity
@@ -78,7 +79,6 @@ This will serve as the starting point for your project. In LYNC Manager Prefab, 
 3. Sponsor Transactions -> If you want to sponsor transactions for users (Please contact [LYNC](https://calendly.com/shanu-lync/30-minute-meeting) to setup Paymaster)
 4. Pass a deep link name (example: lyncmovement/gameName etc.)
 
-
 ### Integrating Login or Transaction Layer via LYNC Aptos SDK in Unity
 
 The Sample Code for Login can be found at APTOSExample.cs.
@@ -95,16 +95,16 @@ LyncManager.onLyncReady += LyncReady;
 private void LyncReady(LyncManager Lync)
     {
         // Once LYNC is ready, you can do any steps like Login, Logout, Transactions etc.
-        
+
         //To Login:
         Lync.WalletAuth.ConnectWallet((wallet) =>
         {
             OnWalletConnected(wallet);
         });
-        
+
         //To Logout:
         Lync.WalletAuth.Logout();
-        
+
     }
 ```
 
@@ -130,7 +130,7 @@ On Wallet Connected (TypeOfLoginMethod)
 
 ```cs
 //To OnWalletConnected(TypeOfLoginMethod):
-        
+
         private void OnWalletConnected(AuthBase _authBase)
         {
             if (AuthBase.AuthType == AUTH_TYPE.FIREBASE)
@@ -138,7 +138,7 @@ On Wallet Connected (TypeOfLoginMethod)
                 Populate(_authBase as FirebaseAuth);
             }
         }
-        
+
 
         public void Populate(FirebaseAuth firebaseAuth = null)
         {
@@ -153,7 +153,8 @@ On Wallet Connected (TypeOfLoginMethod)
 LyncManager.Instance.WalletAuth.Logout();
 ```
 
-## Transaction Flow 
+## Transaction Flow
+
 There are two methods for proceeding with a transaction:
 
 1. **Gasless Transaction -** Game Developer/ Game Studio will be sponsoring the transaction fee.
@@ -162,7 +163,7 @@ There are two methods for proceeding with a transaction:
 
 ### Gasless Transaction
 
-To Enable Gasless Transactions or to Sponsor Transactions for your users, 
+To Enable Gasless Transactions or to Sponsor Transactions for your users,
 Set Sponsor Transactions as true, and [contact LYNC team to setup your paymaster](https://calendly.com/shanu-lync/30-minute-meeting)
 
 <div className="flex flex-col items-center">
@@ -199,7 +200,8 @@ if (txData.success)
 else
     ErrorTransaction(txData.error);
 ```
-Or You can create a Transaction Object, 
+
+Or You can create a Transaction Object,
 
 ```cs
 public Transaction mintTxn;
@@ -237,6 +239,7 @@ List<TransactionArgument> arguments = new List<TransactionArgument>{
 ```cs
 com.unity.nuget.newtonsoft-json
 ```
+
 <div className="flex flex-col items-center">
     <img className="w-[80%]" src="/img/APTOS/unity-sdk/unity-sdk-6.png"/>
     <span className="font-bold text-[rgb(192,192,192)]">Add newtonsoft Json</span>
