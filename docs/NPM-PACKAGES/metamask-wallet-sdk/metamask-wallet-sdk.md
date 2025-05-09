@@ -8,7 +8,7 @@ custom_edit_url: null
 
 Introducing metamask wallet NPM SDK. Powered by LYNC, metamask wallet NPM SDK allows developer to integrate metamask wallets inside any dapp in a few lines of code. This SDK provides a simple, hook-based approach for handling wallet connections, handling several network-related operations, and and interact with user's metamask wallet for message and transaction signing. The SDK provides different hooks to connect and manage user wallet in your dapp.
 
-## Example application
+## Demo Dapp
 
 <div className="flex items-center flex-col mb-5">
 
