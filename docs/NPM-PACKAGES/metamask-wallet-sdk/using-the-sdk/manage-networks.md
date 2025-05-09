@@ -104,7 +104,7 @@ const NetworkSwitcher: React.FC = () => {
 };
 ```
 
-Apart from chains supported by `lync-wallet-sdk`, user can also switch and connect to any ethereum chains. User can provide valid chain configuration according to metamask documentation ([see valid configuration type here](./types)) as second parameter of function `switchNetwork`, in order to add and switch to the other chain. For example:
+Apart from chains supported by `lync-wallet-sdk`, user can also switch and connect to any ethereum chains. User can provide valid chain configuration according to metamask documentation ([see valid configuration type here](./types.md)) as second parameter of function `switchNetwork`, in order to add and switch to the other chain. For example:
 
 ```tsx
 import React, { useMemo } from "react";
