@@ -84,10 +84,7 @@ const sidebars: SidebarsConfig = {
             type: "doc",
             id: "PRODUCTS/telegram/telegram-launch",
           },
-          items: [
-            "PRODUCTS/telegram/telegram-conf",
-            "PRODUCTS/telegram/telegram-deploy",
-          ],
+          items: ["PRODUCTS/telegram/telegram-conf", "PRODUCTS/telegram/telegram-deploy"],
         },
       ],
     },
@@ -283,9 +280,7 @@ const sidebars: SidebarsConfig = {
             {
               type: "category",
               label: "How to Integrate Paymaster",
-              items: [
-                "MOVEMENT/paymaster/feat/integration/movement-paymaster-integration-js-ts",
-              ],
+              items: ["MOVEMENT/paymaster/feat/integration/movement-paymaster-integration-js-ts"],
             },
           ],
         },
@@ -311,9 +306,7 @@ const sidebars: SidebarsConfig = {
             {
               type: "category",
               label: "How to Integrate Paymaster",
-              items: [
-                "SUPRA/paymaster/feat/integration/supra-paymaster-integration-js-ts",
-              ],
+              items: ["SUPRA/paymaster/feat/integration/supra-paymaster-integration-js-ts"],
             },
           ],
         },
@@ -507,23 +500,52 @@ const sidebars: SidebarsConfig = {
     {
       type: "category",
       label: "NPM PACKAGES",
-      link: {
-        type: "doc",
-        id: "NPM-PACKAGES/marketplace/packages-marketplace",
-      },
       items: [
-        "NPM-PACKAGES/marketplace/packages-marketplace-useAllCollectionNFT",
-        "NPM-PACKAGES/marketplace/packages-marketplace-useAllBuyNFT",
-        "NPM-PACKAGES/marketplace/packages-marketplace-useAllOwnerNFT",
-        "NPM-PACKAGES/marketplace/packages-marketplace-useNFTDetails",
-        "NPM-PACKAGES/marketplace/packages-marketplace-useAllNFTForRent",
+        {
+          type: "category",
+          label: "Marketplace",
+          link: {
+            type: "doc",
+            id: "NPM-PACKAGES/marketplace/packages-marketplace",
+          },
+          items: [
+            "NPM-PACKAGES/marketplace/packages-marketplace-useAllCollectionNFT",
+            "NPM-PACKAGES/marketplace/packages-marketplace-useAllBuyNFT",
+            "NPM-PACKAGES/marketplace/packages-marketplace-useAllOwnerNFT",
+            "NPM-PACKAGES/marketplace/packages-marketplace-useNFTDetails",
+            "NPM-PACKAGES/marketplace/packages-marketplace-useAllNFTForRent",
+          ],
+        },
+        {
+          type: "category",
+          label: "Metamask Wallet SDK",
+          link: {
+            type: "doc",
+            id: "NPM-PACKAGES/metamask-wallet-sdk/metamask-wallet-sdk",
+          },
+          items: [
+            "NPM-PACKAGES/metamask-wallet-sdk/metamask-wallet-sdk-getting-started",
+            {
+              type: "category",
+              label: "Using the SDK",
+              link: {
+                type: "doc",
+                id: "NPM-PACKAGES/metamask-wallet-sdk/using-the-sdk/metamask-wallet-sdk-using-the-sdk",
+              },
+              items: [
+                "NPM-PACKAGES/metamask-wallet-sdk/using-the-sdk/metamask-wallet-sdk-using-the-sdk-wrapping-your-application",
+                "NPM-PACKAGES/metamask-wallet-sdk/using-the-sdk/metamask-wallet-sdk-using-the-sdk-handle-wallet-connections.md",
+                "NPM-PACKAGES/metamask-wallet-sdk/using-the-sdk/metamask-wallet-sdk-using-the-sdk-manage-networks",
+                "NPM-PACKAGES/metamask-wallet-sdk/using-the-sdk/metamask-wallet-sdk-using-the-sdk-using-wallet-and-signer",
+                "NPM-PACKAGES/metamask-wallet-sdk/using-the-sdk/metamask-wallet-sdk-using-the-sdk-types",
+              ],
+            },
+            "NPM-PACKAGES/metamask-wallet-sdk/metamask-wallet-sdk-supported-chains",
+            "NPM-PACKAGES/metamask-wallet-sdk/metamask-wallet-sdk-support",
+          ],
+        },
       ],
     },
-    // {
-    //   type: 'category',
-    //   label: 'Tutorial',
-    //   items: ['tutorial-basics/create-a-document'],
-    // },
   ],
 };
 
