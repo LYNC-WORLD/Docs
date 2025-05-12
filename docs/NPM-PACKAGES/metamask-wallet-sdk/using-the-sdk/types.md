@@ -35,6 +35,14 @@ enum SupportedChains {
   OptimismSepoliaTestnet = "0xaa37dc",
   SaigonTestnet = "0x7e5",
 }
+
+enum MetaMaskFunctionErrorCodes {
+  MetaMaskAddNetworkError = "MetaMaskAddNetworkError",
+  MetaMaskConnectionError = "MetaMaskConnectionError",
+  MetaMaskDisconnectError = "MetaMaskDisconnectError",
+  MetaMaskProviderNotFound = "MetaMaskProviderNotFound",
+  MetaMaskSwitchNetworkError = "MetaMaskSwitchNetworkError",
+}
 ```
 
 ## Types
@@ -52,6 +60,12 @@ type MetamaskAddChainConfigurations = {
   blockExplorerUrls: Array<string>;
   rpcUrls: Array<string>;
   nativeCurrency: ChainNativeCurrency;
+};
+
+type MetaMaskFunctionErrorData<E = unknown> = {
+  error?: E;
+  code: MetaMaskFunctionErrorCodes;
+  message: string;
 };
 
 type EIP1193Provider = {
