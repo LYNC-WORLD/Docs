@@ -19,22 +19,39 @@ This SDK provides different hooks to connect user's metamask wallet to your dapp
 
 ```tsx
 import React from "react";
-import { collapseAddress, useAccount, useConnect, useDisconnect } from "lync-wallet-sdk";
+import { collapseAddress, MetaMaskFunctionErrorCodes, useAccount, useConnect, useDisconnect } from "lync-wallet-sdk";
 
 const MetaMaskConnectExample: React.FC = () => {
   const { account } = useAccount();
   const { isConnecting, connect } = useConnect();
   const { disconnect } = useDisconnect();
 
+  const connectToMetaMask = async () => {
+    const response = await connect();
+    if (response.success) return;
+
+    if (response.errorData.code === MetaMaskFunctionErrorCodes.MetaMaskProviderNotFound) {
+      window.open("https://metamask.io/download/", "_blank");
+      return;
+    }
+
+    console.error("Error connecting to metamask: ", response.errorData);
+  };
+
+  const disconnectMetaMask = async () => {
+    const response = await disconnect();
+    if (!response.success) console.error(response.errorData);
+  };
+
   return (
     <div>
       {!account && (
-        <button disabled={isConnecting} onClick={connect}>
+        <button disabled={isConnecting} onClick={connectToMetaMask}>
           Connect Metamask
         </button>
       )}
       {account && <span>{collapseAddress(account)}</span>}
-      {account && <button onClick={disconnect}>Disconnect</button>}
+      {account && <button onClick={disconnectMetaMask}>Disconnect</button>}
     </div>
   );
 };
@@ -44,15 +61,34 @@ Additionally, the SDK provides a `MetamaskConnect` component which wraps the con
 
 ```tsx
 import React from "react";
-import { MetamaskConnect, useAccount, useDisconnect } from "lync-wallet-sdk";
+import { MetamaskConnect, MetaMaskFunctionErrorCodes, useAccount, useDisconnect } from "lync-wallet-sdk";
+
+type MetaMaskConnectionError = {
+  error?: E;
+  code: MetaMaskFunctionErrorCodes;
+  message: string;
+};
 
 const MetaMaskConnectExample: React.FC = () => {
   const { account } = useAccount();
   const { disconnect } = useDisconnect();
 
+  const onConnectionSuccess = () => {
+    console.info("MetaMask connected successfully.");
+  };
+
+  const onConnectionError = (error: MetaMaskConnectionError) => {
+    if (errorData.code === MetaMaskFunctionErrorCodes.MetaMaskProviderNotFound) {
+      console.error("Please install MetaMask: https://metamask.io/download/");
+      window.open("https://metamask.io/download/", "_blank");
+    } else {
+      console.error(error);
+    }
+  };
+
   return (
     <div>
-      <MetamaskConnect />
+      <MetamaskConnect onSuccess={onConnectionSuccess} onError={onConnectionError} />
       {account && <button onClick={disconnect}>Disconnect</button>}
     </div>
   );

@@ -72,7 +72,7 @@ Switch networks:
 
 ```tsx
 import React, { useMemo } from "react";
-import { useAccount, useNetwork } from "lync-wallet-sdk";
+import { SupportedChains, useAccount, useNetwork } from "lync-wallet-sdk";
 import { Mainnet_Chains, Testnet_Chains } from "./chains";
 
 const NetworkSwitcher: React.FC = () => {
@@ -84,18 +84,25 @@ const NetworkSwitcher: React.FC = () => {
     [chainId]
   );
 
+  const switchMetaMaskNetwork = async (chainIdToConnect: SupportedChains) => {
+    const response = await switchNetwork(chainIdToConnect);
+    if (!response.success) {
+      console.error(response.errorData.message);
+    }
+  };
+
   if (!account) return null;
 
   return (
     <div>
       <p>Connected Network: {connectedChain?.label ?? "Unsupported Network"}</p>
       {Mainnet_Chains.map((chain) => (
-        <button key={chain.id} disabled={isSwitchingNetwork} onClick={() => switchNetwork(chain.id)}>
+        <button key={chain.id} disabled={isSwitchingNetwork} onClick={() => switchMetaMaskNetwork(chain.id)}>
           {chain.label}
         </button>
       ))}
       {Testnet_Chains.map((chain) => (
-        <button key={chain.id} disabled={isSwitchingNetwork} onClick={() => switchNetwork(chain.id)}>
+        <button key={chain.id} disabled={isSwitchingNetwork} onClick={() => switchMetaMaskNetwork(chain.id)}>
           {chain.label}
         </button>
       ))}
@@ -133,6 +140,13 @@ const NetworkSwitcher: React.FC = () => {
     [chainId]
   );
 
+  const switchToAvalancheFuji = async () => {
+    const response = await switchNetwork(avalancheFujiTestnetConfig.chainId, avalancheFujiTestnetConfig);
+    if (!response.success) {
+      console.error(response.errorData.message);
+    }
+  };
+
   if (!account) return null;
 
   return (
@@ -142,7 +156,7 @@ const NetworkSwitcher: React.FC = () => {
         {chainId !== "0xa869" && (connectedChain?.label ?? "Unsupported Network")}
         {chainId === "0xa869" && "Avalanche Fuji Testnet"}
       </p>
-      <button disabled={isSwitchingNetwork} onClick={() => switchNetwork("0xa869", avalancheFujiTestnetConfig)}>
+      <button disabled={isSwitchingNetwork} onClick={switchToAvalancheFuji}>
         Avalanche Fuji Testnet
       </button>
     </div>
@@ -162,23 +176,6 @@ const NetworkWatcher: React.FC = () => {
   useEffect(() => {
     console.info("Chain Id changed: ", chainId);
   }, [chainId]);
-
-  return null;
-};
-```
-
-The SDK also provide `useWallet` and `useEthSigner` hooks, which provides access to user's metamask wallet provider and ethereum signer. You can import and use these hooks to get access to wallet provider and signer, and interact with user's metamask wallet for message and transaction signing.
-
-```tsx
-import React from "react";
-import { useWallet, useEthSigner } from "lync-wallet-sdk";
-
-const UserWalletProvider: React.FC = () => {
-  const { wallet } = useWallet();
-  const signer = useEthSigner();
-
-  console.info("User wallet provider: ", wallet);
-  console.info("Ethereum signer: ", signer);
 
   return null;
 };
