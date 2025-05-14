@@ -13,7 +13,8 @@ Our wallet SDK provides a variety of hooks and functions to connect and manage u
 1. [Wrapping your application with the `LYNCMetaMaskProvider`](./wrapping-your-application.md)
 2. [Handle wallet connections](./handle-wallet-connections.md)
 3. [Manage networks](./manage-networks.md)
-4. [Using Wallet and Signer](./using-wallet-and-signer.md)
-5. [Types and Enums provided by the SDK](./types.md)
+4. [Get the native currency balance](./native-currency-balance.md)
+5. [Using Wallet and Signer](./using-wallet-and-signer.md)
+6. [Types and Enums provided by the SDK](./types.md)
 
 In the upcoming sections, we will learn about all the above functionalities individually.
