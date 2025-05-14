@@ -15,7 +15,7 @@ You can manage networks in your dapp with the hooks provided by the SDK. You can
 
 The SDK provides intuitive hooks for several network-related operations. The following are examples of using these hooks.
 
-Detect the current network:
+## Detect the current network
 
 ```tsx
 // chains.ts
@@ -68,7 +68,7 @@ const ConnectedNetwork: React.FC = () => {
 };
 ```
 
-Switch networks:
+## Switch networks
 
 ```tsx
 import React, { useMemo } from "react";
@@ -164,7 +164,7 @@ const NetworkSwitcher: React.FC = () => {
 };
 ```
 
-Handle network changes:
+## Handle network changes
 
 ```tsx
 import React, { useEffect } from "react";

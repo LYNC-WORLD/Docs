@@ -536,6 +536,7 @@ const sidebars: SidebarsConfig = {
                 "NPM-PACKAGES/metamask-wallet-sdk/using-the-sdk/metamask-wallet-sdk-using-the-sdk-wrapping-your-application",
                 "NPM-PACKAGES/metamask-wallet-sdk/using-the-sdk/metamask-wallet-sdk-using-the-sdk-handle-wallet-connections.md",
                 "NPM-PACKAGES/metamask-wallet-sdk/using-the-sdk/metamask-wallet-sdk-using-the-sdk-manage-networks",
+                "NPM-PACKAGES/metamask-wallet-sdk/using-the-sdk/metamask-wallet-sdk-using-the-sdk-native-currency-balance",
                 "NPM-PACKAGES/metamask-wallet-sdk/using-the-sdk/metamask-wallet-sdk-using-the-sdk-using-wallet-and-signer",
                 "NPM-PACKAGES/metamask-wallet-sdk/using-the-sdk/metamask-wallet-sdk-using-the-sdk-types",
               ],
