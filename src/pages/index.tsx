@@ -211,25 +211,16 @@ export default function Home(): ReactNode {
           </div>
 
           <div className="w-full flex items-center justify-center ">
-            <input
-              type="text"
-              onClick={() => {
-                document.getElementsByClassName("DocSearch-Button")[0].click();
-              }}
-              id="searcher"
-              className="lg:w-[655px] w-[90%] md:w-[75%]  pl-[48px] lg:text-lg rounded-lg h-12 lg:h-16 bg-black border-[1px] border-solid border-[rgba(255,255,255,0.2)] outline-none resize-none"
-              style={{
-                boxShadow:
-                  "0px 0px 0px 4px rgba(255, 255, 255, 0.1), 0px 0px 54px rgba(76, 229, 137, 0.25)",
-                backgroundImage: "url(/img/home-search-icon.png)",
-                backgroundPosition: "15px",
-                backgroundSize: "24px",
-
-                backgroundRepeat: "no-repeat",
-              }}
-              placeholder="Search using topics, categories, trends..."
-            />
-            <SearchBarWrapper />
+               <Link to="/docs/welcome">
+              <button
+                className="font-grotesk font-semibold w-[220px] md:w-[250px] lg:w-[300px] text-base lg:text-lg rounded-lg h-12 lg:h-14 text-white border border-solid border-[rgba(255,255,255,0.2)] outline-none resize-none cursor-pointer
+             bg-[rgba(0,0,0,0.5)] shadow-[0_0_0_4px_rgba(255,255,255,0.1),0_0_54px_rgba(229,76,154,0.25)]
+             transition-all duration-300 ease-in-out
+             hover:bg-[rgba(0,0,0,0.7)] hover:shadow-[0_0_0_4px_rgba(255,255,255,0.2),0_0_64px_rgba(229,76,154,0.45)]"
+              >
+                Explore docs
+              </button>
+            </Link>
           </div>
 
           <img src="/img/home-line-seperate.png" className="lg:my-10" alt="" />
