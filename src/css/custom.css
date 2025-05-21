@@ -35,7 +35,7 @@
 } */
 
 .header-dashboard-link::before {
-  content: "Dashboard";
+  content: "Mew.gg";
 }
 .header-support-link::before {
   content: "Support";

@@ -91,7 +91,7 @@ const config: Config = {
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: "https://dashboard.lync.world/",
+          href: "https://mew.gg/",
 
           position: "right",
           className: "header-dashboard-link",
@@ -123,13 +123,17 @@ const config: Config = {
             //   label: 'Stack Overflow',
             //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
             // },
+            // {
+            //   label: "Discord",
+            //   href: "https://discord.com/invite/lyncworld",
+            // },
             {
-              label: "Discord",
-              href: "https://discord.com/invite/lyncworld",
+              label: "Telegram",
+              href: "https://t.me/mewdotgg",
             },
             {
               label: "X",
-              href: "https://x.com/Lyncworld",
+              href: "https://x.com/mewdotgg",
             },
           ],
         },
@@ -140,9 +144,17 @@ const config: Config = {
             //   label: 'Blog',
             //   to: '/blog',
             // },
+            // {
+            //   label: "GitHub",
+            //   href: "https://github.com/LYNC-WORLD",
+            // },
             {
-              label: "GitHub",
-              href: "https://github.com/LYNC-WORLD",
+              label: "Buy Bot",
+              href: "https://t.me/mew_buy_bot",
+            },
+            {
+              label: "Trade Bot",
+              href: "https://t.me/MewTradeBot",
             },
           ],
         },
