@@ -7,7 +7,7 @@ import tailwindPlugin from "./plugins/tailwind-config.cjs";
 
 const config: Config = {
   title: "mew.gg",
-  tagline: "The first mobile-centric Layer 2 using Move Stack",
+  tagline: "",
   favicon: "img/mew.png",
   staticDirectories: ["public", "static"],
   // Set the production url of your site here
@@ -18,8 +18,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "LYNC World", // Usually your GitHub org/user name.
-  projectName: "docs-test", // Usually your repo name.
+  organizationName: "MEW.GG", // Usually your GitHub org/user name.
+  projectName: "MEW.GG", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -79,7 +79,7 @@ const config: Config = {
     navbar: {
       title: "Mew.gg",
       logo: {
-        alt: "My Site Logo",
+        alt: "MEW.GG",
         src: "img/mew.png",
       },
       items: [
@@ -91,13 +91,7 @@ const config: Config = {
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: "https://dashboard.lync.world/",
-
-          position: "right",
-          className: "header-dashboard-link",
-        },
-        {
-          href: "https://t.me/shanu_lync",
+          href: "https://t.me/mewdotgg",
 
           position: "right",
           className: "header-support-link",
@@ -114,6 +108,14 @@ const config: Config = {
               label: "Introduction",
               to: "/docs/welcome",
             },
+            {
+              label: "Getting Started",
+              to: "/docs/getting-started",
+            },
+            {
+              label: "Buy and Sell",
+              to: "/docs/buy-and-sell",
+            },
           ],
         },
         {
@@ -124,30 +126,30 @@ const config: Config = {
             //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
             // },
             {
-              label: "Discord",
-              href: "https://discord.com/invite/lyncworld",
+              label: "X",
+              href: "https://x.com/mewdotgg",
             },
             {
-              label: "X",
-              href: "https://x.com/Lyncworld",
+              label: "Telegram",
+              href: "https://t.me/mewdotgg",
             },
           ],
         },
         {
-          title: "More",
+          title: "Website",
           items: [
             // {
             //   label: 'Blog',
             //   to: '/blog',
             // },
             {
-              label: "GitHub",
-              href: "https://github.com/LYNC-WORLD",
+              label: "Mew.GG",
+              href: "https://mew.gg",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} LYNC World`,
+      copyright: `Copyright © ${new Date().getFullYear()} MEW.GG`,
     },
     prism: {
       theme: prismThemes.github,
