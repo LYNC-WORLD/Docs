@@ -114,7 +114,7 @@ const config: Config = {
             },
             {
               label: "Buy and Sell",
-              to: "/docs/buy-and-sell",
+              to: "/docs/buy-sell",
             },
           ],
         },
