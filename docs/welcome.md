@@ -4,7 +4,7 @@ id: welcome
 custom_edit_url: null
 ---
 
-# 👋 Welcome
+# 👋 Welcome to mew.gg
 
 <div className="flex flex-col items-center">
     <img src="/img/cover.png"/>
@@ -12,11 +12,9 @@ custom_edit_url: null
 <br>
 </br>
 
-[Mew.gg](https://mew.gg/) is a meme token launching Platform that enables users to launch meme tokens on the Saga blockchain. It is the first trader-friendly token launchpad designed for mobile, social, and AI-powered trading and deployed on the Saga blockchain. It provides a user-friendly interface for creating and managing tokens, utilizing the capabilities of the most scalable Layer 1 in crypto: Saga.
+[Mew.gg](https://mew.gg/) is a meme token launchpad that enables users to launch meme tokens on the [Saga](https://www.saga.xyz/), designed to empower projects and traders with a seamless, decentralized token launch experience.<br/>
 
-[Mew.gg](https://mew.gg/) provides many features to users to create and manage meme tokens on the Fuel blockchain. With a sleek, no-code interface and gamified trading experience, [Mew.gg](https://mew.gg/) is lowering the barrier to entry for token creators while turning traders into power users through rewards, leaderboards, and AI tooling. [Mew.gg](https://mew.gg/) simplifies the process of launching meme tokens on the Saga blockchain, offering an accessible platform for users to create and manage their tokens. [Mew.gg](https://mew.gg/) is rethinking what it means to create, discover, and trade tokens in the on-chain era.
-
-## Link to Mew.gg
+## Explore to mew.gg
 
 <div className="flex items-center flex-col mb-5">
 
@@ -32,3 +30,22 @@ custom_edit_url: null
     <!-- <span className="text-sm text-[rgb(192,192,192)]">Mew.gg</span> -->
 
 </div>
+
+mew.gg enables new tokens to be launched and traded in a fair and transparent way. Tokens begin trading on a bonding curve, allowing early supporters to buy or sell with dynamically adjusting prices. Once the curve target is reached, tokens are automatically migrated and made available on OKU Trade, providing enhanced liquidity and exposure.
+
+
+[Mew.gg](https://mew.gg/) provides many features to users to create and manage meme tokens on Saga. With a sleek, no-code interface and gamified trading experience, [Mew.gg](https://mew.gg/) is lowering the barrier to entry for token creators while turning traders into power users through rewards, leaderboards, and AI tooling. [Mew.gg](https://mew.gg/) simplifies the process of launching meme tokens on the Saga blockchain, offering an accessible platform for users to create and manage their tokens. [Mew.gg](https://mew.gg/) is rethinking what it means to create, discover, and trade tokens in the on-chain era.
+
+
+## Built on Saga
+mew.gg leverages Saga’s high-performance infrastructure to offer low fees, fast transactions, and scalability from day one.
+
+## Why Use mew.gg?
+- Earn XP & Revenue Share
+    - Get rewarded with XP on every trade and interaction. XP holders receive 30% of mew.gg's revenue.
+- Fast & Gas-free on Saga
+    - Built on the Saga blockchain for speed, scalability, and zero gas fees.
+- Automatic Listing on OKU
+    - After the curve target is hit, tokens move to OKU Trade for broader market access.
+- Transparent & Fair Launches
+    - mew.gg is a decentralized and transparent platform where token prices increase with demand, enabling fair and open price discovery.
