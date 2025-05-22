@@ -40,8 +40,8 @@ For every 15-minute interval, the chart shows the following details:
 
 <div className="flex flex-col items-center">
     <img src="/img/trade-list.png"/>
-    <span className="font-bold text-[rgb(192,192,192)]">Table that shows each buy and sell for a meme token on FuelUp</span>
+    <span className="font-bold text-[rgb(192,192,192)]">Table that shows each buy and sell for a meme token on mew.gg</span>
 </div>
 <br></br>
 
-This trade chart helps users track token trends and make informed decisions about buying or selling meme tokens on FuelUp.
+This trade chart helps users track token trends and make informed decisions about buying or selling meme tokens on mew.gg.

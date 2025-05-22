@@ -34,7 +34,7 @@ You can choose between the SAGA value or the token amount when buying a meme tok
 
 ## Confirm the transaction
 
-- After entering the amount of tokens to buy, users can click on the "Place Trade" button just below the input field. This will initiate a transaction on the Fuel blockchain.
+- After entering the amount of tokens to buy, users can click on the "Place Trade" button just below the input field. This will initiate a transaction on the Saga blockchain.
 - Review the token amount and transaction details carefully. If all looks good, approve the transaction in your wallet to complete the purchase.
 
 <div className="flex flex-col items-center">
@@ -52,7 +52,7 @@ You can choose between the SAGA value or the token amount when buying a meme tok
 </div>
 <br></br>
 
-- Users can also track their holdings by visiting their profile on the FuelUp application.
+- Users can also track their holdings by visiting their profile on the Mew.gg dApp.
 
 <div className="flex flex-col items-center">
     <img src="/img/buy-holding.png"/>
