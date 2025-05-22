@@ -29,7 +29,9 @@ You can track the progress of the bonding curve of any token on [mew.gg](https:/
 
 The bonding curve on [mew.gg](https://mew.gg) works similarly to many popular automated market makers (AMMs) like Uniswap, [Oku Dex](https://oku.trade/), etc., based on the constant product formula.
 
-**_x∗y=k_**
+<div className="h-full w-full cursor-pointer rounded-[.25rem] flex items-center justify-center text-2xl italic font-bold font-sans text-[#FF70D9]">
+X × Y = K
+</div>
 
 ## Constant product formula
 

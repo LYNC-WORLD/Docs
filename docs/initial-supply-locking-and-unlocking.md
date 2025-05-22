@@ -6,7 +6,7 @@ custom_edit_url: null
 
 # Initial Supply Locking and Unlocking
 
-The Meme token creation using Mew.gg empowers you to launch your custom meme tokens directly on the Saga blockchain, with full control over supply, identity, and tokenomics.
+The Meme token creation using [mew.gg](https://mew.gg) empowers you to launch your custom meme tokens directly on the Saga blockchain, with full control over supply, identity, and tokenomics.
 
 ## Initial Supply Locking
 
