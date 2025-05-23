@@ -14,7 +14,7 @@ custom_edit_url: null
 
 [Mew.gg](https://mew.gg/) is a meme token launchpad that enables users to launch meme tokens on the [Saga](https://www.saga.xyz/), designed to empower projects and traders with a seamless, decentralized token launch experience.<br/>
 
-## Explore to mew.gg
+## Explore mew.gg
 
 <div className="flex items-center flex-col mb-5">
 
