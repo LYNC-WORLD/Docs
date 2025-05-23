@@ -69,6 +69,11 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: "img/cover.png",
+    metadata: [
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:image", content: "/img/cover.png" },
+      { property: "og:image", content: "/img/cover.png" },
+    ],
     colorMode: {
       defaultMode: "dark",
       disableSwitch: true,
