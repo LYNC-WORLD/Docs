@@ -9,7 +9,7 @@ custom_edit_url: null
 
 ## Connect Your Wallet
 
-To create and trade meme tokens on [mew.gg](https://mew.gg), you need to connect your wallet first. Connecting your wallet is the first step to using Mew.gg.
+To create and trade meme tokens on [mew.gg](https://mew.gg), you need to connect your wallet first.
 
 <div className="flex flex-col items-center">
     <img src="/img/connect-wallet.png"/>
