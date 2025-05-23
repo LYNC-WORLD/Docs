@@ -71,8 +71,8 @@ const config: Config = {
     image: "img/cover.png",
     metadata: [
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:image", content: "/img/cover.png" },
-      { property: "og:image", content: "/img/cover.png" },
+      { name: "twitter:image", content: "https://docs.mew.gg/img/cover.png" },
+      { property: "og:image", content: "https://docs.mew.gg/img/cover.png" },
     ],
     colorMode: {
       defaultMode: "dark",
