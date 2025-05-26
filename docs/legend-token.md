@@ -6,8 +6,8 @@ custom_edit_url: null
 
 # Legend Token
 
-Legend Token is a special recognition given to tokens that demonstrate exceptional performance (trade volume) on the [mew.gg](https://mew.gg) platform. A meme token listed on [mew.gg](https://mew.gg) is recognized as a "Legend Token" when the token crosses 60% of the [Bonding Curve](/docs/bonding-curve.md)
-and sustains this performance for a good period, typically 1 to 2 hours. The [Bonding Curve](/docs/bonding-curve.md) represents the token's growth percentage (starting from 0 through 100%), depending on the trade volume, demand, and market activity.
+Legend Token is a special recognition given to tokens that demonstrate exceptional performance (trade volume) on the [mew.gg](https://mew.gg) platform. A meme token listed on [mew.gg](https://mew.gg) is recognized as a "Legend Token" when the token crosses 60% of the [Bonding Curve](/bonding-curve.md)
+and sustains this performance for a good period, typically 1 to 2 hours. The [Bonding Curve](/bonding-curve.md) represents the token's growth percentage (starting from 0 through 100%), depending on the trade volume, demand, and market activity.
 
 Meme tokens achieving the criteria for a legend are recognized as a "Legend Token" and prominently displayed on the [mew.gg](https://mew.gg) homepage with a crown icon, showing their high demand and market activity on [mew.gg](https://mew.gg).
 

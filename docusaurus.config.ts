@@ -39,10 +39,12 @@ const config: Config = {
       "@docusaurus/preset-classic",
       {
         docs: {
+          routeBasePath: "/",
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl:
+            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
           showReadingTime: true,
@@ -52,7 +54,8 @@ const config: Config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl:
+            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
@@ -86,12 +89,12 @@ const config: Config = {
         src: "img/mew.png",
       },
       items: [
-        {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
-          position: "left",
-          label: "Docs",
-        },
+        // {
+        //   type: "docSidebar",
+        //   sidebarId: "tutorialSidebar",
+        //   position: "left",
+        //   label: "Docs",
+        // },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: "https://t.me/mewdotgg",
@@ -107,17 +110,17 @@ const config: Config = {
         {
           title: "Docs",
           items: [
-            {
-              label: "Introduction",
-              to: "/docs/welcome",
-            },
+            // {
+            //   label: "Introduction",
+            //   to: "/welcome",
+            // },
             {
               label: "Getting Started",
-              to: "/docs/getting-started",
+              to: "/getting-started",
             },
             {
               label: "Buy and Sell",
-              to: "/docs/buy-sell",
+              to: "/buy-sell",
             },
           ],
         },
