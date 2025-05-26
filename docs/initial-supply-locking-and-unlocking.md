@@ -10,7 +10,7 @@ The Meme token creation using [mew.gg](https://mew.gg) empowers you to launch yo
 
 ## Initial Supply Locking
 
-When creating a meme token using Mew.gg, users can define the initial locked supply, which is a portion of the total supply that will be made immediately available upon token creation. You can learn more about locking the initial token supply when creating a meme token from [here](/docs/create-token#lock-initial-token-supply).
+When creating a meme token using Mew.gg, users can define the initial locked supply, which is a portion of the total supply that will be made immediately available upon token creation. You can learn more about locking the initial token supply when creating a meme token from [here](/create-token#lock-initial-token-supply).
 
 <div className="flex flex-col items-center">
     <img src="/img/lock-initial-token-supply.png"/>

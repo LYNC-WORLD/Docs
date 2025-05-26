@@ -15,7 +15,7 @@ You need to follow certain steps to buy a meme token on Mew.gg. The following ar
 ## Connect your wallet -
 
 You must ensure that your wallet is connected to the Mew.gg platform. You can locate and click the 'CONNECT WALLET' button, located at the top right corner of the page.
-You must ensure that you have sufficient SAGA in your wallet to cover the token purchase and associated gas fees. You can follow the steps described in the [Getting Started](/docs/getting-started.md) section to top up their wallet with the SAGA token.
+You must ensure that you have sufficient SAGA in your wallet to cover the token purchase and associated gas fees. You can follow the steps described in the [Getting Started](/getting-started.md) section to top up their wallet with the SAGA token.
 
 ## Select a token
 
@@ -62,7 +62,7 @@ You can choose between the SAGA value or the token amount when buying a meme tok
 
 ## Selling a token on Mew.gg
 
-To sell a token, you also need to connect your wallet and select a token that you hold and want to sell. You can follow the steps described in the [Getting Started](/docs/getting-started.md) section to connect your wallet. After connecting your wallet, you can select the token you want to sell and navigate to the token details page. You can find the section where you can sell the token on the right side of the page.
+To sell a token, you also need to connect your wallet and select a token that you hold and want to sell. You can follow the steps described in the [Getting Started](/getting-started.md) section to connect your wallet. After connecting your wallet, you can select the token you want to sell and navigate to the token details page. You can find the section where you can sell the token on the right side of the page.
 
 > NOTE -
 >
@@ -106,9 +106,9 @@ After selecting the meme token to sell on Mew.gg, you can follow the following s
 
 ## Key considerations when buying and selling tokens
 
-- Price dynamics: The price of tokens fluctuates based on buying and selling activity, affected by the [bonding curve model](/docs/bonding-curve.md).
+- Price dynamics: The price of tokens fluctuates based on buying and selling activity, affected by the [bonding curve model](/bonding-curve.md).
 - Gas fees: Each transaction requires gas fees, which vary depending on network congestion.
-- Market trends: Analyze the [OHLC trade chart](/docs/understanding-the-trade-chart.md) to make informed buying or selling decisions.
-- CTO and Legend tokens: Be aware of token classifications such as [Not OG, CTO (Community Take Over)](/docs/not-og-and-cto-token.md), and [Legend tokens](/docs/legend-token.md) for better decision-making.
+- Market trends: Analyze the [OHLC trade chart](/understanding-the-trade-chart.md) to make informed buying or selling decisions.
+- CTO and Legend tokens: Be aware of token classifications such as [Not OG, CTO (Community Take Over)](/not-og-and-cto-token.md), and [Legend tokens](/legend-token.md) for better decision-making.
 
 Mew.gg provides a transparent, decentralized trading experience on the Saga blockchain, empowering users to buy and sell meme tokens on the Saga blockchain with confidence, along with ensuring security and efficiency in all transactions.
