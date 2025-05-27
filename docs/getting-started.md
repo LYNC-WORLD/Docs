@@ -18,7 +18,9 @@ To create and trade meme tokens on [mew.gg](https://mew.gg), you need to connect
 
 1. Navigate to mew.gg to start creating, buying, and selling meme tokens.
 2. Locate and click the 'Connect Wallet' button, it is located at the top right corner of the page.
-3. A pop-up will appear, asking you to select your preferred wallet. Choose from supported options like MetaMask wallet, Kepler wallet, Nightly wallet, or other supported wallets.
-4. Depending on the wallet you selected, you will be guided through the connection process. Follow the specific instructions provided by the wallet to connect to the web application.
-5. After authorizing the connection, you will see your wallet address displayed in the top right corner.
-6. Once connected, you're ready to start creating, buying, and selling meme tokens on the Mew.gg application.
+3. To import SAGA Token in MetaMask users need to use this: `0xA19377761FED745723B90993988E04d641c2CfFE`
+
+4. A pop-up will appear, asking you to select your preferred wallet. Choose from supported options like MetaMask wallet, Kepler wallet, Nightly wallet, or other supported wallets.
+5. Depending on the wallet you selected, you will be guided through the connection process. Follow the specific instructions provided by the wallet to connect to the web application.
+6. After authorizing the connection, you will see your wallet address displayed in the top right corner.
+7. Once connected, you're ready to start creating, buying, and selling meme tokens on the Mew.gg application.
