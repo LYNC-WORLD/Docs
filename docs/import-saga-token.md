@@ -11,7 +11,7 @@ custom_edit_url: null
 2. Switch the network to Saga EVM (Saga Network).
 
 <div className="flex flex-col items-center">
-    <img src="/img/import-Saga-token-Sagaevm.png"/>
+    <img src="/img/import-saga-token-sagaevm.png"/>
     <span className="font-bold text-[rgb(192,192,192)]">Saga Network</span>
 </div>
 <br></br>
@@ -21,7 +21,7 @@ custom_edit_url: null
 2. Click “Import tokens.”
 
 <div className="flex flex-col items-center">
-    <img src="/img/import-Saga-token.png"/>
+    <img src="/img/import-saga-token.png"/>
     <span className="font-bold text-[rgb(192,192,192)]">Import Token</span>
 </div>
 <br></br>
@@ -31,7 +31,7 @@ custom_edit_url: null
 4. In "Token Contract Address," paste: `0xA19377761FED745723B90993988E04d641c2CfFE`
 
 <div className="flex flex-col items-center">
-    <img src="/img/import-Saga-token-contract-address.png"/>
+    <img src="/img/import-saga-token-contract-address.png"/>
     <span className="font-bold text-[rgb(192,192,192)]">Token Contract Address</span>
 </div>
 <br></br>
