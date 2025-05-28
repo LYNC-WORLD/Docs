@@ -31,13 +31,18 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: "doc",
-      id: "create-token",
-      label: "Creating a Token",
+      id: "import-saga-token",
+      label: "Importing a Saga Token",
     },
     {
       type: "doc",
-      id: "buy-sell",
-      label: "Buying and Selling a Token",
+      id: "saga-to-evm",
+      label: "How to Bridge from SAGA to EVM",
+    },
+    {
+      type: "doc",
+      id: "create-token",
+      label: "Creating a Token",
     },
     {
       type: "doc",

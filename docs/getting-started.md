@@ -1,6 +1,5 @@
 ---
-sidebar_label: "
-Getting Started"
+sidebar_label: "Getting Started"
 id: getting-started
 custom_edit_url: null
 ---
