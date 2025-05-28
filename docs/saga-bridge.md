@@ -58,7 +58,7 @@ This guide explains how to use the **Swap** feature on our website to bridge ass
 ### Step 6: Swap Complete
 
 <div className="flex flex-col items-center">
-    <img src="/img/swap-completed.png"/>
+    <img src="/img/Swap-completed.png"/>
     <span className="font-bold text-[rgb(192,192,192)]">Swap Complete</span>
 </div>
 <br></br>
