@@ -126,7 +126,7 @@ const GET_SAMPLE_CODE = (sampleCodeParams: SampleCodeParams) => {
   const queryParams = `?network=${network}&page=${page}&limit=${limit}&sortBy=${sortBy}&search=${search}`;
 
   return `const END_POINT = "${endPoint + queryParams}"
-const createNewWallet = async () => {
+const getData = async () => {
     try {
         const response = await fetch(END_POINT, {
             method: '${METHOD}',
