@@ -92,7 +92,7 @@ const GET_SAMPLE_CODE = (sampleCodeParams: SampleCodeParams) => {
   const queryParams = `${assetId}?network=${network}&apiKey=${projectApiKey}`;
 
   return `const END_POINT = "${endPoint + queryParams}"
-const createNewWallet = async () => {
+const getData = async () => {
     try {
         const response = await fetch(END_POINT, {
             method: '${METHOD}',
