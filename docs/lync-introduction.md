@@ -1,19 +1,39 @@
 ---
-
 custom_edit_url: null
 ---
 
-# 👋 Introducing LYNC
-### The first mobile centric layer 2 using Move Stack
+# Introducing **LYNC**
 
-### What is LYNC?
+<span style={{ color: '#6B7280', fontWeight: 'bold' }}>
+Autonomous AI + Web3 Layer
+</span>
 
-LYNC is the first mobile-centric Layer 2 using Move Stack, designed to bring web3 to over 7 billion mobile users.
+## What is LYNC?
 
-It empowers developers with a native toolkit, enabling them to build on-chain products in 90% less time and at a significantly reduced cost.
+**LYNC** is an autonomous AI and Web3 Layer, designed to bring web3 to over 7 billion mobile users.
 
-More about LYNC L2: https://x.com/movementlabsxyz/status/1813985778705580109
+It empowers developers with a native toolkit, enabling them to build on-chain products in **90% less time** and at a significantly reduced cost.
 
-### Why LYNC?
+Empowering **founders, companies, and agents** — with **wallets, payments, tokenization**, and more.
 
-At LYNC, we aim to lead the next major shift from web to mobile in crypto by building the very first mobile centric layer using Move Stack, Becoming a key driver of the transformation that is witnessed in web2 where user adoption has transformed via diverse platforms and simplified infrastructure.
+## Why LYNC?
+
+A unified **no-code platform** that makes **AI + Web3** accessible:
+
+- Generate **smart contracts** and **AI agents** via prompts
+- Launch **cross-chain dApps** without writing complex code
+- **Tokenize and monetize** directly from the LYNC stack
+
+## 🔧 What We Offer
+
+### 1. Wallets & Payments Infra
+
+- Social login, gasless paymasters, fiat/crypto rails
+
+### 2. AI Agent Infra
+
+- On-chain AI agents with memory, execution logic, and dashboards
+
+### 3. Tokenization Tools
+
+- No-code token/NFT launchers, bonding curves, marketplace SDKs
