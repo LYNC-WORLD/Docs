@@ -2,7 +2,7 @@
 custom_edit_url: null
 ---
 
-# Introducing **LYNC**
+# Introducing LYNC
 
 <span style={{ color: '#6B7280', fontWeight: 'bold' }}>
 Autonomous AI + Web3 Layer
