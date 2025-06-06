@@ -27,6 +27,7 @@ const sidebars: SidebarsConfig = {
     {
       type: "category",
       label: "Products",
+      collapsed: false,
       items: [
         "PRODUCTS/account-abstraction",
         "PRODUCTS/account-abstraction-webgl",
@@ -84,7 +85,10 @@ const sidebars: SidebarsConfig = {
             type: "doc",
             id: "PRODUCTS/telegram/telegram-launch",
           },
-          items: ["PRODUCTS/telegram/telegram-conf", "PRODUCTS/telegram/telegram-deploy"],
+          items: [
+            "PRODUCTS/telegram/telegram-conf",
+            "PRODUCTS/telegram/telegram-deploy",
+          ],
         },
       ],
     },
@@ -280,7 +284,9 @@ const sidebars: SidebarsConfig = {
             {
               type: "category",
               label: "How to Integrate Paymaster",
-              items: ["MOVEMENT/paymaster/feat/integration/movement-paymaster-integration-js-ts"],
+              items: [
+                "MOVEMENT/paymaster/feat/integration/movement-paymaster-integration-js-ts",
+              ],
             },
           ],
         },
@@ -306,7 +312,9 @@ const sidebars: SidebarsConfig = {
             {
               type: "category",
               label: "How to Integrate Paymaster",
-              items: ["SUPRA/paymaster/feat/integration/supra-paymaster-integration-js-ts"],
+              items: [
+                "SUPRA/paymaster/feat/integration/supra-paymaster-integration-js-ts",
+              ],
             },
           ],
         },
