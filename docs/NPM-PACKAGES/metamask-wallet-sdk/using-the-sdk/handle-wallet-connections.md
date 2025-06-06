@@ -19,7 +19,13 @@ This SDK provides different hooks to connect user's metamask wallet to your dapp
 
 ```tsx
 import React from "react";
-import { collapseAddress, MetaMaskFunctionErrorCodes, useAccount, useConnect, useDisconnect } from "lync-wallet-sdk";
+import {
+  collapseAddress,
+  MetaMaskFunctionErrorCodes,
+  useAccount,
+  useConnect,
+  useDisconnect,
+} from "lync-wallet-sdk";
 
 const MetaMaskConnectExample: React.FC = () => {
   const { account } = useAccount();
@@ -30,7 +36,10 @@ const MetaMaskConnectExample: React.FC = () => {
     const response = await connect();
     if (response.success) return;
 
-    if (response.errorData.code === MetaMaskFunctionErrorCodes.MetaMaskProviderNotFound) {
+    if (
+      response.errorData.code ===
+      MetaMaskFunctionErrorCodes.MetaMaskProviderNotFound
+    ) {
       window.open("https://metamask.io/download/", "_blank");
       return;
     }
@@ -61,7 +70,12 @@ Additionally, the SDK provides a `MetamaskConnect` component which wraps the con
 
 ```tsx
 import React from "react";
-import { MetamaskConnect, MetaMaskFunctionErrorCodes, useAccount, useDisconnect } from "lync-wallet-sdk";
+import {
+  MetamaskConnect,
+  MetaMaskFunctionErrorCodes,
+  useAccount,
+  useDisconnect,
+} from "lync-wallet-sdk";
 
 type MetaMaskConnectionError = {
   error?: E;
@@ -78,7 +92,9 @@ const MetaMaskConnectExample: React.FC = () => {
   };
 
   const onConnectionError = (error: MetaMaskConnectionError) => {
-    if (errorData.code === MetaMaskFunctionErrorCodes.MetaMaskProviderNotFound) {
+    if (
+      errorData.code === MetaMaskFunctionErrorCodes.MetaMaskProviderNotFound
+    ) {
       console.error("Please install MetaMask: https://metamask.io/download/");
       window.open("https://metamask.io/download/", "_blank");
     } else {
@@ -88,7 +104,10 @@ const MetaMaskConnectExample: React.FC = () => {
 
   return (
     <div>
-      <MetamaskConnect onSuccess={onConnectionSuccess} onError={onConnectionError} />
+      <MetamaskConnect
+        onSuccess={onConnectionSuccess}
+        onError={onConnectionError}
+      />
       {account && <button onClick={disconnect}>Disconnect</button>}
     </div>
   );
@@ -97,4 +116,4 @@ const MetaMaskConnectExample: React.FC = () => {
 
 > NOTE:
 >
-> When you are using `MetamaskConnect` component in your dapp, you must import `'lync-wallet-sdk/build/index.css'` to get necessary styling for the component ([see here](#wrapping-your-application-with-the-lyncmetamaskprovider)). If you want to change the default styles implemented by tye SDK for connect button, you can add your custom styles by targeting `.LYNCMetaMaskConnectSDK__metamask_connect_btn` class, and `.LYNCMetaMaskConnectSDK__metamask_connect_btn:hover` and `.LYNCMetaMaskConnectSDK__metamask_connect_btn:disabled` states.
+> When you are using `MetamaskConnect` component in your dapp, you must import `'lync-wallet-sdk/build/index.css'` to get necessary styling for the component ([see here](./wrapping-your-application.md#wrapping-your-application-with-the-lyncmetamaskprovider)). If you want to change the default styles implemented by tye SDK for connect button, you can add your custom styles by targeting `.LYNCMetaMaskConnectSDK__metamask_connect_btn` class, and `.LYNCMetaMaskConnectSDK__metamask_connect_btn:hover` and `.LYNCMetaMaskConnectSDK__metamask_connect_btn:disabled` states.
