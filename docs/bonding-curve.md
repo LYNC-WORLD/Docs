@@ -14,7 +14,7 @@ As more and more tokens are bought, the price of the token goes up, and more SOL
 Once the bonding curve is completed (i.e., filled with 40 SOL), the tokens are said to be bonded, and they can be put on the [Meteora](https://www.meteora.ag/) with the liquidity that has been raised and the remaining 200 million tokens (out of 1 billion). Now the token is tradable on the [Meteora](https://www.meteora.ag/) on the Solana blockchain. This gives the token some real-world value.
 
 <div className="flex flex-col items-center">
-    <img src="/img/bonding-curve.png"/>
+    <img src="/img/sol-bdc.png"/>
     <span className="font-bold text-[rgb(192,192,192)]">A typical bonding curve of a token on Pump Solana</span>
 </div>
 <br></br>

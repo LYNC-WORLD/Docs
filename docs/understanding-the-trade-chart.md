@@ -39,7 +39,7 @@ For every 15-minute interval, the chart shows the following details:
 - **Token Sale:** An increase in selling activity causes the graph to decline.
 
 <div className="flex flex-col items-center">
-    <img src="/img/trade-list.png"/>
+    <img src="/img/sol-trade.png"/>
     <span className="font-bold text-[rgb(192,192,192)]">Table that shows each buy and sell for a meme token on Pump Solana</span>
 </div>
 <br></br>

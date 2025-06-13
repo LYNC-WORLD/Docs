@@ -37,7 +37,7 @@ In the next step, you can choose the amount of the token you want to buy for you
 You can also choose between the Solana value or the token amount when buying some amount of the token for yourself. If you choose to use the Solana value, you will get tokens worth the entered Solana amount. If you choose to use a token amount, then you will have to pay the Solana value cost for the entered amount of the token.
 
 <div className="flex flex-col items-center">
-    <img src="/img/create-token-quantity.png"/>
+    <img src="/img/temp-cc.png"/>
     <span className="font-bold text-[rgb(192,192,192)]">Users can choose how many tokens they want to buy</span>
 </div>
 <br></br>
@@ -47,7 +47,7 @@ You can also choose between the Solana value or the token amount when buying som
 In the next steps, you can click on the "CONFIRM" or "SKIP THIS" button depending on whether you want to buy some amount of the tokens for yourself or not. This will initiate a transaction on the Solana blockchain. A pop-up will appear asking you to confirm the transaction. Once you confirm the transaction using your connected wallet, your token will be created on the Solana blockchain and will get listed on the Pump Solana application so that users can trade it.
 
 <div className="flex flex-col items-center">
-    <img src="/img/create-token-transaction.png"/>
+    <img src="/img/glow.png"/>
     <span className="font-bold text-[rgb(192,192,192)]">A pop-up asking to confirm the transaction</span>
 </div>
 <br></br>
