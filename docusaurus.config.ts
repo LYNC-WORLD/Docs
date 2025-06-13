@@ -6,20 +6,20 @@ import tailwindPlugin from "./plugins/tailwind-config.cjs";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "mew.gg",
+  title: "Pump Solana",
   tagline: "",
   favicon: "img/mew.png",
   staticDirectories: ["public", "static"],
   // Set the production url of your site here
-  url: "https://docs.mew.gg",
+  url: "https://docs.pump-solana.gg",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "MEW.GG", // Usually your GitHub org/user name.
-  projectName: "MEW.GG", // Usually your repo name.
+  organizationName: "Pump Solana", // Usually your GitHub org/user name.
+  projectName: "Pump Solana", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -83,9 +83,9 @@ const config: Config = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: "Mew.gg",
+      title: "Pump Solana",
       logo: {
-        alt: "MEW.GG",
+        alt: "Pump Solana Logo",
         src: "img/mew.png",
       },
       items: [
@@ -97,7 +97,7 @@ const config: Config = {
         // },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: "https://t.me/mewdotgg",
+          href: "/",
 
           position: "right",
           className: "header-support-link",
@@ -133,11 +133,11 @@ const config: Config = {
             // },
             {
               label: "X",
-              href: "https://x.com/mewdotgg",
+              href: "/",
             },
             {
               label: "Telegram",
-              href: "https://t.me/mewdotgg",
+              href: "/",
             },
           ],
         },
@@ -149,13 +149,13 @@ const config: Config = {
             //   to: '/blog',
             // },
             {
-              label: "Mew.GG",
-              href: "https://mew.gg",
+              label: "Pump Solana",
+              href: "https://solana-launchpad-opal.vercel.app/",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} MEW.GG`,
+      copyright: `Copyright © ${new Date().getFullYear()} Pump Solana.`,
     },
     prism: {
       theme: prismThemes.github,

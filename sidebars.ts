@@ -31,23 +31,8 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: "doc",
-      id: "import-saga-token",
-      label: "Importing a Saga Token",
-    },
-    {
-      type: "doc",
-      id: "saga-to-evm",
-      label: "How to Bridge from SAGA to EVM",
-    },
-    {
-      type: "doc",
       id: "create-token",
       label: "Creating a Token",
-    },
-    {
-      type: "doc",
-      id: "initial-supply-locking-and-unlocking",
-      label: "Initial Supply Locking and Unlocking",
     },
     {
       type: "doc",
@@ -78,29 +63,6 @@ const sidebars: SidebarsConfig = {
       type: "doc",
       id: "not-og-and-cto-token",
       label: "Not OG and CTO Token",
-    },
-    {
-      type: "doc",
-      id: "mewamm-trading",
-      label: "MewAMM Trading",
-    },
-    {
-      type: "category",
-      label: "Mew API's",
-      link: {
-        type: "doc",
-        id: "mew-api/mew-api",
-      },
-      items: [
-        "mew-api/api-overview",
-        "mew-api/to-get-all-token",
-        "mew-api/get-token-detail-by-id",
-        "mew-api/to-search-for-token",
-        "mew-api/To-Get-Tokens-Held-By-User",
-        "mew-api/To-Get-Top-Performing-Meme-Tokens",
-        "mew-api/To-Get-Tokens-Bounding-Data",
-        "mew-api/To-Get-View-Tokens-Trade",
-      ],
     },
   ],
 };

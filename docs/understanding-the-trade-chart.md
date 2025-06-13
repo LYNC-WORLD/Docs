@@ -6,7 +6,7 @@ custom_edit_url: null
 
 # Understanding the Trade Chart
 
-The trade chart on Mew.gg uses an **OHLC (Open-High-Low-Close)** graph to visually represent the price movements of meme tokens over time. It provides a clear and structured way to analyze the token’s performance in intervals.
+The trade chart on Pump Solana uses an **OHLC (Open-High-Low-Close)** graph to visually represent the price movements of meme tokens over time. It provides a clear and structured way to analyze the token’s performance in intervals.
 
 <div className="flex flex-col items-center">
     <img src="/img/trade-chart.png"/>
@@ -40,8 +40,8 @@ For every 15-minute interval, the chart shows the following details:
 
 <div className="flex flex-col items-center">
     <img src="/img/trade-list.png"/>
-    <span className="font-bold text-[rgb(192,192,192)]">Table that shows each buy and sell for a meme token on mew.gg</span>
+    <span className="font-bold text-[rgb(192,192,192)]">Table that shows each buy and sell for a meme token on Pump Solana</span>
 </div>
 <br></br>
 
-This trade chart helps users track token trends and make informed decisions about buying or selling meme tokens on mew.gg.
+This trade chart helps users track token trends and make informed decisions about buying or selling meme tokens on Pump Solana.

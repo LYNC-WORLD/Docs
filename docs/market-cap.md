@@ -6,7 +6,7 @@ custom_edit_url: null
 
 # Market Cap
 
-Market capitalization, or "market cap," represents the total dollar($) market value of a token while it's being traded on [mew.gg](https://mew.gg).
+Market capitalization, or "market cap," represents the total dollar($) market value of a token while it's being traded on [Pump Solana](https://solana-launchpad-opal.vercel.app/).
 
 <div className="flex flex-col items-center">
     <img src="/img/market-cap.png"/>
@@ -18,9 +18,9 @@ As more and more tokens are bought, the price of the token goes up, and the mark
 
 > NOTE -
 >
-> Mew.gg only shows the market cap of a particular token until the token is bonded.
+> Pump Solana only shows the market cap of a particular token until the token is bonded.
 
-## Market cap calculation on Mew.gg
+## Market cap calculation on Pump Solana
 
 Formula -
 

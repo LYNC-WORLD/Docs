@@ -5,37 +5,37 @@ slug: /
 custom_edit_url: null
 ---
 
-# 👋 Welcome to mew.gg
+# 👋 Welcome to Pump Solana
 
 <div className="flex flex-col items-center">
-    <img src="/img/cover.png" alt="Mew Cover" />
+    <img src="/img/cover.png" alt="Solana Cover" />
 </div>
 <br>
 </br>
 
-[Mew.gg](https://mew.gg/) is a meme token launchpad that enables users to launch meme tokens on the [Saga](https://www.saga.xyz/), designed to empower projects and traders with a seamless, decentralized token launch experience.<br/>
+[Pump Solana](https://solana-launchpad-opal.vercel.app/) is a meme token launchpad that enables users to launch meme tokens on the [Solana](https://solana.com/), designed to empower projects and traders with a seamless, decentralized token launch experience.<br/>
 
-## Explore mew.gg
+## Explore Pump Solana
 
 <div className="flex items-center flex-col mb-5">
 
-    <a href="https://mew.gg/" target="_blank" className="mb-5 w-full border-[0.5px] hover:border-[rgb(135,135,135)] cursor-pointer border-[rgb(91,91,91)] border-solid rounded-[.25rem] flex items-center justify-between px-5 py-2">
+    <a href="https://solana-launchpad-opal.vercel.app/" target="_blank" className="mb-5 w-full border-[0.5px] hover:border-[rgb(135,135,135)] cursor-pointer border-[rgb(91,91,91)] border-solid rounded-[.25rem] flex items-center justify-between px-5 py-2">
         <div className="flex items-center gap-4">
             <img className="w-10" src="/img/mew.png" alt="mew logo" />
-            <span className="mt-1">Mew.gg</span>
+            <span className="mt-1">Pump Solana</span>
         </div>
         <div>
             <img className="w-3 mt-2" src="/img/arrow.svg" alt="arrow" />
         </div>
     </a>
-    <!-- <span className="text-sm text-[rgb(192,192,192)]">Mew.gg</span> -->
+    <!-- <span className="text-sm text-[rgb(192,192,192)]">Pump Solana</span> -->
 
 </div>
 
-mew.gg enables new tokens to be launched and traded in a fair and transparent way. Tokens begin trading on a bonding curve, allowing early supporters to buy or sell with dynamically adjusting prices. Once the token raise **20,000 SAGA** bonding curve is reached, tokens are automatically migrated and made available on [OKU Trade](https://oku.trade/), providing enhanced liquidity and exposure.
+Pump Solana enables new tokens to be launched and traded in a fair and transparent way. Tokens begin trading on a bonding curve, allowing early supporters to buy or sell with dynamically adjusting prices. Once the token raise **40 SOL** bonding curve is reached, tokens are automatically migrated and made available on [Meteora](https://www.meteora.ag/), providing enhanced liquidity and exposure.
 
-[Mew.gg](https://mew.gg/) provides many features to users to create and manage meme tokens on Saga. With a sleek, no-code interface and gamified trading experience, [Mew.gg](https://mew.gg/) is lowering the barrier to entry for token creators while turning traders into power users through rewards, leaderboards, and AI tooling. <br></br>
-[Mew.gg](https://mew.gg/) simplifies the process of launching meme tokens on the Saga blockchain, offering an accessible platform for users to create and manage their tokens.
+[Pump Solana](https://solana-launchpad-opal.vercel.app/) provides many features to users to create and manage meme tokens on Solana. With a sleek, no-code interface and gamified trading experience, [Pump Solana](https://solana-launchpad-opal.vercel.app/) is lowering the barrier to entry for token creators while turning traders into power users through rewards, leaderboards, and AI tooling. <br></br>
+[Pump Solana](https://solana-launchpad-opal.vercel.app/) simplifies the process of launching meme tokens on the Solana blockchain, offering an accessible platform for users to create and manage their tokens.
 
 ## Platform Features
 
@@ -48,17 +48,17 @@ mew.gg enables new tokens to be launched and traded in a fair and transparent wa
 - **AI-powered & Telegram Tooling**  
   Tools designed to help creators and traders optimize their strategies using TG & AI Bots and.
 
-## Built on Saga
+## Built on Solana
 
-mew.gg leverages Saga’s high-performance infrastructure to offer low fees, fast transactions, and scalability from day one.
+Pump Solana leverages Solana’s high-performance infrastructure to offer low fees, fast transactions, and scalability from day one.
 
-## Why use mew.gg?
+## Why use Pump Solana?
 
 - Earn XP & Revenue Share
-  - Get rewarded with XP on every trade and interaction. XP holders receive 30% of mew.gg's revenue.
-- Fast & Gas-free on Saga
-  - Built on the Saga blockchain for speed, scalability, and zero gas fees.
-- Automatic Listing on OKU
-  - After the curve target is hit, tokens move to OKU Trade for broader market access.
+  - Get rewarded with XP on every trade and interaction. XP holders receive 30% of Pump Solana's revenue.
+- Fast & Gas-free on Solana
+  - Built on the Solana blockchain for speed, scalability, and zero gas fees.
+- Automatic Listing on Meteora
+  - After the curve target is hit, tokens move to Meteora Trade for broader market access.
 - Transparent & Fair Launches
-  - mew.gg is a decentralized and transparent platform where token prices increase with demand, enabling fair and open price discovery.
+  - Pump Solana is a decentralized and transparent platform where token prices increase with demand, enabling fair and open price discovery.
