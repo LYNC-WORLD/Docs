@@ -6,7 +6,7 @@ import tailwindPlugin from "./plugins/tailwind-config.cjs";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "uponly",
+  title: "Uponly",
   tagline: "",
   favicon: "img/base/uponly.png",
   staticDirectories: ["public", "static"],
@@ -18,8 +18,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "uponly", // Usually your GitHub org/user name.
-  projectName: "uponly", // Usually your repo name.
+  organizationName: "LYNC World", // Usually your GitHub org/user name.
+  projectName: "Uponly", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -85,7 +85,7 @@ const config: Config = {
     navbar: {
       title: "",
       logo: {
-        alt: "uponly Logo",
+        alt: "Uponly Logo",
         src: "img/base/uponly.png",
       },
       items: [
@@ -149,13 +149,13 @@ const config: Config = {
             //   to: '/blog',
             // },
             {
-              label: "uponly",
+              label: "Uponly",
               href: "https://launchpad-git-base-launchpad-lync-world.vercel.app/",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} uponly.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Uponly.`,
     },
     prism: {
       theme: prismThemes.github,
