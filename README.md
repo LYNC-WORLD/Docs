@@ -1,6 +1,6 @@
 # Uponly
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+[Link to Docs](https://docs-git-base-launchpad-lync-world.vercel.app/)
 
 ### Installation
 
