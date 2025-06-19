@@ -11,7 +11,7 @@ Bonding Curve is a mathematical concept that defines the relationship between th
 
 As more and more tokens are bought, the price of the token goes up, and more ETH is deposited in the bonding curve.
 
-Once the bonding curve is completed (i.e., filled with 4 ETH), the tokens are said to be bonded, and they can be put on the [Meteora](https://www.meteora.ag/) with the liquidity that has been raised and the remaining 200 million tokens (out of 1 billion). Now the token is tradable on the [Meteora](https://www.meteora.ag/) on the Base blockchain. This gives the token some real-world value.
+Once the bonding curve is completed (i.e., filled with 4 ETH), the tokens are said to be bonded, and they can be put on the [Uniswap](https://app.uniswap.org/explore/tokens) with the liquidity that has been raised and the remaining 200 million tokens (out of 1 billion). Now the token is tradable on the [Uniswap](https://app.uniswap.org/explore/tokens) on the Base blockchain. This gives the token some real-world value.
 
 <div className="flex flex-col items-center">
     <img src="/img/base/bonding-curve.png"/>
@@ -27,7 +27,7 @@ You can track the progress of the bonding curve of any token on [Uponly](https:/
 
 ## Bonding curve math
 
-The bonding curve on [Uponly](https://launchpad-git-base-launchpad-lync-world.vercel.app/) works similarly to many popular automated market makers (AMMs) like Uniswap, [Meteora](https://www.meteora.ag/), etc., based on the constant product formula.
+The bonding curve on [Uponly](https://launchpad-git-base-launchpad-lync-world.vercel.app/) works similarly to many popular automated market makers (AMMs) like Uniswap, [Uniswap](https://app.uniswap.org/explore/tokens), etc., based on the constant product formula.
 
 <div className="h-full w-full cursor-pointer rounded-[.25rem] flex items-center justify-center text-2xl italic font-bold font-sans text-[#FF572D]">
 X × Y = K

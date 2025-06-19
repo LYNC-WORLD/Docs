@@ -31,7 +31,7 @@ The maximum possible XP is 4100. You can increase your XP by buying more and mor
 The Leaderboard is a core feature of the [Uponly](https://launchpad-git-base-launchpad-lync-world.vercel.app/) platform that ranks users based on their XP scores. It reflects real-time activity and encourages users to actively participate in the meme token ecosystem on the Base blockchain to rise through the ranks.
 
 <div className="flex flex-col items-center">
-    <img src="/img/home-leaderboard.png"/>
+    <img src="/img/base/ld-1.png"/>
     <span className="font-bold text-[rgb(192,192,192)]">The leaderboard</span>
 </div>
 <br></br>
@@ -43,7 +43,7 @@ The leaderboard is a live, ranked list of users ordered by their current XP scor
 - Current XP score of the user
 
 <div className="flex flex-col items-center">
-    <img src="/img/leaderboard.png"/>
+    <img src="/img/base/ld-2.png"/>
     <span className="font-bold text-[rgb(192,192,192)]">A typical bonding curve of a token on [Uponly](https://launchpad-git-base-launchpad-lync-world.vercel.app/)</span>
 </div>
 <br></br>

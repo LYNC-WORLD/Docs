@@ -32,7 +32,7 @@ custom_edit_url: null
 
 </div>
 
-Uponly enables new tokens to be launched and traded in a fair and transparent way. Tokens begin trading on a bonding curve, allowing early supporters to buy or sell with dynamically adjusting prices. Once the token raise **4 ETH** bonding curve is reached, tokens are automatically migrated and made available on [Meteora](https://www.meteora.ag/), providing enhanced liquidity and exposure.
+Uponly enables new tokens to be launched and traded in a fair and transparent way. Tokens begin trading on a bonding curve, allowing early supporters to buy or sell with dynamically adjusting prices. Once the token raise **4 ETH** bonding curve is reached, tokens are automatically migrated and made available on [Uniswap](https://app.uniswap.org/explore/tokens), providing enhanced liquidity and exposure.
 
 [Uponly](https://launchpad-git-base-launchpad-lync-world.vercel.app/) provides many features to users to create and manage meme tokens on Base. With a sleek, no-code interface and gamified trading experience, [Uponly](https://launchpad-git-base-launchpad-lync-world.vercel.app/) is lowering the barrier to entry for token creators while turning traders into power users through rewards, leaderboards, and AI tooling. <br></br>
 [Uponly](https://launchpad-git-base-launchpad-lync-world.vercel.app/) simplifies the process of launching meme tokens on the Base blockchain, offering an accessible platform for users to create and manage their tokens.
@@ -56,7 +56,7 @@ Uponly leverages Solana’s high-performance infrastructure to offer low fees, f
 
 - Earn XP & Revenue Share
   - Get rewarded with XP on every trade and interaction. XP holders receive 30% of Uponly's revenue.
-- Automatic Listing on Meteora
-  - After the curve target is hit, tokens move to Meteora Trade for broader market access.
+- Automatic Listing on Uniswap
+  - After the curve target is hit, tokens move to Uniswap Trade for broader market access.
 - Transparent & Fair Launches
   - Uponly is a decentralized and transparent platform where token prices increase with demand, enabling fair and open price discovery.

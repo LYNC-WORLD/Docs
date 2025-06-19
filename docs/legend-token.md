@@ -12,7 +12,7 @@ and sustains this performance for a good period, typically 1 to 2 hours. The [Bo
 Meme tokens achieving the criteria for a legend are recognized as a "Legend Token" and prominently displayed on the [Uponly](https://launchpad-git-base-launchpad-lync-world.vercel.app/) homepage with a crown icon, showing their high demand and market activity on [Uponly](https://launchpad-git-base-launchpad-lync-world.vercel.app/).
 
 <div className="flex flex-col items-center">
-    <img src="/img/legend-token.png"/>
+    <img src="/img/base/legend.png"/>
     <span className="font-bold text-[rgb(192,192,192)]">Legend Token</span>
 </div>
 <br></br>
