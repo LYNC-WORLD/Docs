@@ -1,11 +1,11 @@
 ---
-sidebar_label: "👋 Welcome"
+sidebar_label: "Welcome"
 id: welcome
 slug: /
 custom_edit_url: null
 ---
 
-# 👋 Welcome to Uponly
+# Welcome to Uponly
 
 <!-- <div className="flex flex-col items-center">
     <img src="/img/cover.png" alt="Base Cover" />
