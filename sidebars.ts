@@ -41,6 +41,11 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: "doc",
+      id: "buy-sell",
+      label: "Buying and Selling a Token",
+    },
+    {
+      type: "doc",
       id: "bonding-curve",
       label: "Bonding Curve",
     },

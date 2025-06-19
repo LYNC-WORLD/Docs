@@ -6,9 +6,9 @@ import tailwindPlugin from "./plugins/tailwind-config.cjs";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "Pump Solana",
+  title: "uponly",
   tagline: "",
-  favicon: "img/mew.png",
+  favicon: "img/base/uponly.png",
   staticDirectories: ["public", "static"],
   // Set the production url of your site here
   url: "https://docs.pump-solana.gg",
@@ -18,8 +18,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "Pump Solana", // Usually your GitHub org/user name.
-  projectName: "Pump Solana", // Usually your repo name.
+  organizationName: "uponly", // Usually your GitHub org/user name.
+  projectName: "uponly", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -83,10 +83,10 @@ const config: Config = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: "Pump Solana",
+      title: "",
       logo: {
-        alt: "Pump Solana Logo",
-        src: "img/mew.png",
+        alt: "uponly Logo",
+        src: "img/base/uponly.png",
       },
       items: [
         // {
@@ -149,13 +149,13 @@ const config: Config = {
             //   to: '/blog',
             // },
             {
-              label: "Pump Solana",
-              href: "https://solana-launchpad-opal.vercel.app/",
+              label: "uponly",
+              href: "https://launchpad-git-base-launchpad-lync-world.vercel.app/",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Pump Solana.`,
+      copyright: `Copyright © ${new Date().getFullYear()} uponly.`,
     },
     prism: {
       theme: prismThemes.github,
