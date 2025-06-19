@@ -50,7 +50,7 @@ custom_edit_url: null
 
 ## Built on Base
 
-Uponly leverages Solana’s high-performance infrastructure to offer low fees, fast transactions, and scalability from day one.
+Uponly leverages Base’s high-performance infrastructure to offer low fees, fast transactions, and scalability from day one.
 
 ## Why use Uponly?
 

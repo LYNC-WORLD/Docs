@@ -11,7 +11,7 @@ const config: Config = {
   favicon: "img/base/uponly.png",
   staticDirectories: ["public", "static"],
   // Set the production url of your site here
-  url: "https://docs.pump-solana.gg",
+  url: "",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
