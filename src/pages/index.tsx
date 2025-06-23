@@ -110,38 +110,46 @@ const PRODUCTS = {
   firstLine: [
     {
       text: "Smart Wallet & Paymaster",
+      url: "/docs/lync-introduction",
       icon: "/img/wallet.svg",
     },
     {
       text: "Payments",
+      url: "/docs/lync-introduction",
       icon: "/img/payment.svg",
     },
   ],
   secondLine: [
     {
       text: "AI Agent",
+      url: "/docs/lync-introduction",
       icon: "/img/ai_agent.svg",
     },
     {
       text: "Tokenization Tools",
+      url: "/docs/lync-introduction",
       icon: "/img/tokenization.svg",
     },
   ],
   mobileViewCombined: [
     {
       text: "AI Agent",
+      url: "/docs/lync-introduction",
       icon: "/img/ai_agent.svg",
     },
     {
       text: "Payments",
+      url: "/docs/lync-introduction",
       icon: "/img/payment.svg",
     },
     {
       text: "Tokenization Tools",
+      url: "/docs/lync-introduction",
       icon: "/img/tokenization.svg",
     },
     {
       text: "Smart Wallet & Paymaster",
+      url: "/docs/lync-introduction",
       icon: "/img/wallet.svg",
     },
   ],
@@ -254,6 +262,7 @@ export default function Home(): ReactNode {
                 <ProductThreePerLine
                   key={index}
                   text={product.text}
+                  url={product.url}
                   icon={product.icon}
                 />
               ))}
@@ -263,10 +272,20 @@ export default function Home(): ReactNode {
                 <ProductThreePerLine
                   key={index}
                   text={product.text}
+                  url={product.url}
                   icon={product.icon}
                 />
               ))}
             </div>
+            {/*<div className=" hidden lg:flex justify-between  w-full gap-5  items-center ">
+              {PRODUCTS.thirdLine.map((product, index) => (
+                <ProductThreePerLine
+                  key={index}
+                  text={product.text}
+                  url={product.url}
+                />
+              ))}
+            </div>*/}
 
             {/* mobile featured list */}
             <div className="flex lg:hidden justify-between gap-2 w-full flex-wrap  items-center ">
@@ -274,6 +293,7 @@ export default function Home(): ReactNode {
                 <ProductThreePerLine
                   key={index}
                   text={product.text}
+                  url={product.url}
                   icon={product.icon}
                 />
               ))}
