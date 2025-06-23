@@ -90,8 +90,7 @@ function ProductThreePerLine({
   return (
     <Link
       to={url}
-      className="hover:no-underline cursor-pointer transition-all duration-200 box-border w-full self-stretch lg:w-full rounded-lg backdrop-blur-[27px] flex items-center justify-center bg-[rgba(0,0,0,0.4)] px-4  py-6  border-[1px] border-solid border-[rgba(255,255,255,0.25)]  hover:border-[rgba(255,255,255,0.8)] font-normal text-sm lg:text-base lg:leading-[20px] text-white text-center"
-    >
+      className="hover:no-underline cursor-pointer transition-all duration-200 box-border w-full self-stretch lg:w-full rounded-lg backdrop-blur-[27px] flex items-center justify-center bg-[rgba(0,0,0,0.4)] px-4  py-6  border-[1px] border-solid border-[rgba(255,255,255,0.25)]  hover:border-[rgba(255,255,255,0.8)] font-normal text-sm lg:text-base lg:leading-[20px] text-white text-center">
       <img src={icon} className="h-6 w-6 mr-4" />
       {text}
     </Link>
@@ -175,8 +174,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
-    >
+      description="Autonomous AI + Web3 Layer">
       <Head>
         <script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3"></script>
         <script type="text/javascript" src="/script.js"></script>
@@ -190,8 +188,7 @@ export default function Home(): ReactNode {
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           // height: '100vh',
-        }}
-      >
+        }}>
         <div className="w-full flex flex-col items-center relative px-4 lg:px-0 pt-20 pb-10 lg:py-36 gap-10">
           <img
             src="/img/home-bg-lync.png"
@@ -243,8 +240,7 @@ export default function Home(): ReactNode {
 
               <Link
                 to="/docs/lync-introduction"
-                className="font-grotesk font-medium lg:text-lg lg:leading-[19.8px]"
-              >
+                className="font-grotesk font-medium lg:text-lg lg:leading-[19.8px]">
                 View All
               </Link>
             </div>
