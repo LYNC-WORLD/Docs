@@ -71,7 +71,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: "img/lync-cover.jpg",
+    image: "img/Lync-cover.jpg",
     colorMode: {
       defaultMode: "dark",
       disableSwitch: true,
