@@ -2,6 +2,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 import tailwindPlugin from "./plugins/tailwind-config.cjs";
+require("dotenv").config();
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -58,6 +59,10 @@ const config: Config = {
         },
         theme: {
           customCss: "./src/css/custom.css",
+        },
+        googleAnalytics: {
+          trackingID: process.env.GOOGLE_ANALYTICS_ID,
+          anonymizeIP: true,
         },
       } satisfies Preset.Options,
     ],
@@ -152,10 +157,10 @@ const config: Config = {
     },
     algolia: {
       // The application ID provided by Algolia
-      appId: "1AIQPWYE6I",
+      appId: process.env.ALGOLIA_APP_ID,
 
       // Public API key: it is safe to commit it
-      apiKey: "bb36173ab49a5686abf0ea1b148ca6f2",
+      apiKey: process.env.ALGOLIA_API_KEY,
 
       indexName: "test-sable",
 
