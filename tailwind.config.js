@@ -22,6 +22,8 @@ module.exports = {
       screens: {
         sm: "0px",
         lg: "997px",
+        custom500: "500px",
+        custom385: "385px",
       },
       colors: {},
     },
