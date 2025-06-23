@@ -110,53 +110,41 @@ const PRODUCTS = {
   firstLine: [
     {
       text: "Smart Wallet & Paymaster",
-      url: "/docs/PRODUCTS/account-abstraction",
       icon: "/img/wallet.svg",
     },
     {
       text: "Payments",
-      url: "/docs/PRODUCTS/account-abstraction-webgl",
       icon: "/img/payment.svg",
     },
-    // {
-    //   text:'Metamask Wallet',
-    //   url:'/docs/PRODUCTS/metamask-wallet'
-    // },
   ],
   secondLine: [
     {
       text: "AI Agent",
-      url: "/docs/PRODUCTS/metamask-sdk",
       icon: "/img/ai_agent.svg",
     },
     {
       text: "Tokenization Tools",
-      url: "/docs/PRODUCTS/okx-wallet",
       icon: "/img/tokenization.svg",
     },
-    // {
-    //   text: "LYNC In-Game Marketplace SDK",
-    //   url: "/docs/PRODUCTS/in-game-marketplace",
-    // },
-    // {
-    //   text: "NFT Fetcher",
-    //   url: "/docs/PRODUCTS/nft-fetcher",
-    // },
   ],
-  // thirdLine: [
-  //   {
-  //     text: "No-code Smart Contract Deployer",
-  //     url: "/docs/PRODUCTS/no-code-deployer",
-  //   },
-  //   {
-  //     text: "EVM Lootbox SDK",
-  //     url: "docs/PRODUCTS/evm-lootbox-sdk",
-  //   },
-  //   {
-  //     text: "Launch you products on Telegram",
-  //     url: "/docs/PRODUCTS/telegram/telegram-launch",
-  //   },
-  // ],
+  mobileViewCombined: [
+    {
+      text: "AI Agent",
+      icon: "/img/ai_agent.svg",
+    },
+    {
+      text: "Payments",
+      icon: "/img/payment.svg",
+    },
+    {
+      text: "Tokenization Tools",
+      icon: "/img/tokenization.svg",
+    },
+    {
+      text: "Smart Wallet & Paymaster",
+      icon: "/img/wallet.svg",
+    },
+  ],
 };
 
 const CHAINS = [
@@ -266,7 +254,6 @@ export default function Home(): ReactNode {
                 <ProductThreePerLine
                   key={index}
                   text={product.text}
-                  url={product.url}
                   icon={product.icon}
                 />
               ))}
@@ -276,36 +263,17 @@ export default function Home(): ReactNode {
                 <ProductThreePerLine
                   key={index}
                   text={product.text}
-                  url={product.url}
                   icon={product.icon}
                 />
               ))}
             </div>
-            {/*<div className=" hidden lg:flex justify-between  w-full gap-5  items-center ">
-              {PRODUCTS.thirdLine.map((product, index) => (
-                <ProductThreePerLine
-                  key={index}
-                  text={product.text}
-                  url={product.url}
-                />
-              ))}
-            </div>*/}
 
             {/* mobile featured list */}
             <div className="flex lg:hidden justify-between gap-2 w-full flex-wrap  items-center ">
-              {PRODUCTS.firstLine.map((product, index) => (
+              {PRODUCTS.mobileViewCombined.map((product, index) => (
                 <ProductThreePerLine
                   key={index}
                   text={product.text}
-                  url={product.url}
-                  icon={product.icon}
-                />
-              ))}
-              {PRODUCTS.secondLine.map((product, index) => (
-                <ProductThreePerLine
-                  key={index}
-                  text={product.text}
-                  url={product.url}
                   icon={product.icon}
                 />
               ))}
