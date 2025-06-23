@@ -2,12 +2,13 @@ import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 import tailwindPlugin from "./plugins/tailwind-config.cjs";
+require("dotenv").config();
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
   title: "LYNC",
-  tagline: "The first mobile-centric Layer 2 using Move Stack",
+  tagline: "Autonomous AI + Web3 Layer",
   favicon: "img/lync_ico.ico",
   staticDirectories: ["public", "static"],
   // Set the production url of your site here
@@ -18,8 +19,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "LYNC World", // Usually your GitHub org/user name.
-  projectName: "docs-test", // Usually your repo name.
+  organizationName: "LYNC WORLD", // Usually your GitHub org/user name.
+  projectName: "LYNC Documentation", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -42,8 +43,6 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
           showReadingTime: true,
@@ -53,8 +52,6 @@ const config: Config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
@@ -63,6 +60,10 @@ const config: Config = {
         theme: {
           customCss: "./src/css/custom.css",
         },
+        googleAnalytics: {
+          trackingID: process.env.GOOGLE_ANALYTICS_ID,
+          anonymizeIP: true,
+        },
       } satisfies Preset.Options,
     ],
   ],
@@ -70,7 +71,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: "img/docusaurus-social-card.jpg",
+    image: "img/Lync-cover.jpg",
     colorMode: {
       defaultMode: "dark",
       disableSwitch: true,
@@ -115,10 +116,10 @@ const config: Config = {
     },
     algolia: {
       // The application ID provided by Algolia
-      appId: "1AIQPWYE6I",
+      appId: process.env.ALGOLIA_APP_ID,
 
       // Public API key: it is safe to commit it
-      apiKey: "bb36173ab49a5686abf0ea1b148ca6f2",
+      apiKey: process.env.ALGOLIA_API_KEY,
 
       indexName: "test-sable",
 
