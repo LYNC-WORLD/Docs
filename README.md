@@ -1,6 +1,6 @@
-# Uponly
+# Kensei
 
-[Link to Docs](https://docs-git-base-launchpad-lync-world.vercel.app/)
+[Link to Docs](https://docs.kensei.one/)
 
 ### Installation
 

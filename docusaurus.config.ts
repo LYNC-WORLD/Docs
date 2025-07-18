@@ -6,12 +6,12 @@ import tailwindPlugin from "./plugins/tailwind-config.cjs";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "Uponly",
+  title: "Kensei",
   tagline: "",
-  favicon: "img/base/uponly.png",
+  favicon: "img/kensei/favicon.svg",
   staticDirectories: ["public", "static"],
   // Set the production url of your site here
-  url: "https://docs.uponly.lol",
+  url: "https://docs.kensei.one",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -19,7 +19,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "LYNC World", // Usually your GitHub org/user name.
-  projectName: "Uponly", // Usually your repo name.
+  projectName: "Kensei", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -43,8 +43,6 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
           showReadingTime: true,
@@ -54,8 +52,7 @@ const config: Config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
@@ -71,11 +68,17 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: "img/cover.png",
+    image: "img/kensei/cover.png",
     metadata: [
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:image", content: "https://docs.mew.gg/img/cover.png" },
-      { property: "og:image", content: "https://docs.mew.gg/img/cover.png" },
+      {
+        name: "twitter:image",
+        content: "https://docs.kensei.one/img/kensei/cover.png",
+      },
+      {
+        property: "og:image",
+        content: "https://docs.kensei.one/img/cover.png",
+      },
     ],
     colorMode: {
       defaultMode: "dark",
@@ -85,8 +88,8 @@ const config: Config = {
     navbar: {
       title: "",
       logo: {
-        alt: "Uponly Logo",
-        src: "img/base/uponly.png",
+        alt: "Kensei Logo",
+        src: "img/kensei/KATANA-logo.png",
       },
       items: [
         // {
@@ -97,7 +100,7 @@ const config: Config = {
         // },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: "/",
+          href: "https://t.me/kenseionkatana",
 
           position: "right",
           className: "header-support-link",
@@ -133,11 +136,11 @@ const config: Config = {
             // },
             {
               label: "X",
-              href: "/",
+              href: "https://x.com/kenseionkatana",
             },
             {
               label: "Telegram",
-              href: "/",
+              href: "https://t.me/kenseionkatana",
             },
           ],
         },
@@ -149,13 +152,13 @@ const config: Config = {
             //   to: '/blog',
             // },
             {
-              label: "Uponly",
-              href: "https://launchpad-git-base-launchpad-lync-world.vercel.app/",
+              label: "Kensei",
+              href: "https://kensei.one/",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Uponly.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Kensei.`,
     },
     prism: {
       theme: prismThemes.github,

@@ -5,37 +5,37 @@ slug: /
 custom_edit_url: null
 ---
 
-# Welcome to Uponly
+# Welcome to Kensei
 
-<!-- <div className="flex flex-col items-center">
-    <img src="/img/cover.png" alt="Base Cover" />
-</div> -->
+<div className="flex flex-col items-center">
+    <img src="/img/kensei/cover.png" alt="Katana Cover" />
+</div>
 <br>
 </br>
 
-[Uponly](https://launchpad-git-base-launchpad-lync-world.vercel.app/) is a meme token launchpad that enables users to launch meme tokens on the [Base](https://www.base.org/), designed to empower projects and traders with a seamless, decentralized token launch experience.<br/>
+[Kensei](https://kensei.one/) is a meme token launchpad that enables users to launch meme tokens on the [Katana](https://www.base.org/), designed to empower projects and traders with a seamless, decentralized token launch experience.<br/>
 
-## Explore Uponly
+## Explore Kensei
 
 <div className="flex items-center flex-col mb-5">
 
-    <a href="https://launchpad-git-base-launchpad-lync-world.vercel.app/" target="_blank" className="mb-5 w-full border-[0.5px] hover:border-[rgb(135,135,135)] cursor-pointer border-[rgb(91,91,91)] border-solid rounded-[.25rem] flex items-center justify-between px-5 py-2">
+    <a href="https://kensei.one/" target="_blank" className="mb-5 w-full border-[0.5px] hover:border-[rgb(135,135,135)] cursor-pointer border-[rgb(91,91,91)] border-solid rounded-[.25rem] flex items-center justify-between px-5 py-2">
         <div className="flex items-center gap-4">
-            <img className="w-10" src="/img/base/uponly.png" alt="mew logo" />
-            <span className="mt-1">Uponly</span>
+            <img className="w-10" src="/img/kensei/KATANA-logo.png" alt="Kensei logo" />
+            <span className="mt-1">Kensei</span>
         </div>
         <div>
             <img className="w-3 mt-2" src="/img/arrow.svg" alt="arrow" />
         </div>
     </a>
-    <!-- <span className="text-sm text-[rgb(192,192,192)]">Uponly</span> -->
+    <!-- <span className="text-sm text-[rgb(192,192,192)]">Kensei</span> -->
 
 </div>
 
-[Uponly](https://launchpad-git-base-launchpad-lync-world.vercel.app/) enables new tokens to be launched and traded in a fair and transparent way. Tokens begin trading on a bonding curve, allowing early supporters to buy or sell with dynamically adjusting prices. Once the token raise **4 ETH** bonding curve is reached, tokens are automatically migrated and made available on [Uniswap](https://app.uniswap.org/explore/tokens), providing enhanced liquidity and exposure.
+[Kensei](https://kensei.one/) enables new tokens to be launched and traded in a fair and transparent way. Tokens begin trading on a bonding curve, allowing early supporters to buy or sell with dynamically adjusting prices. Once the token raise **4 ETH** bonding curve is reached, tokens are automatically migrated and made available on [Liquidswap](https://liquidswap.com/), providing enhanced liquidity and exposure.
 
-[Uponly](https://launchpad-git-base-launchpad-lync-world.vercel.app/) provides many features to users to create and manage meme tokens on Base. With a sleek, no-code interface and gamified trading experience, [Uponly](https://launchpad-git-base-launchpad-lync-world.vercel.app/) is lowering the barrier to entry for token creators while turning traders into power users through rewards, leaderboards, and AI tooling. <br></br>
-[Uponly](https://launchpad-git-base-launchpad-lync-world.vercel.app/) simplifies the process of launching meme tokens on the Base blockchain, offering an accessible platform for users to create and manage their tokens.
+[Kensei](https://kensei.one/) provides many features to users to create and manage meme tokens on Katana. With a sleek, no-code interface and gamified trading experience, [Kensei](https://kensei.one/) is lowering the barrier to entry for token creators while turning traders into power users through rewards, leaderboards, and AI tooling. <br></br>
+[Kensei](https://kensei.one/) simplifies the process of launching meme tokens on the Katana blockchain, offering an accessible platform for users to create and manage their tokens.
 
 ## Platform Features
 
@@ -48,15 +48,15 @@ custom_edit_url: null
 - **AI-powered & Telegram Tooling**  
   Tools designed to help creators and traders optimize their strategies using TG & AI Bots and.
 
-## Built on Base
+## Built on Katana
 
-Uponly leverages Base’s high-performance infrastructure to offer low fees, fast transactions, and scalability from day one.
+Kensei leverages Katana’s high-performance infrastructure to offer low fees, fast transactions, and scalability from day one.
 
-## Why use Uponly?
+## Why use Kensei?
 
 - Earn XP & Revenue Share
-  - Get rewarded with XP on every trade and interaction. XP holders receive 30% of Uponly's revenue.
-- Automatic Listing on Uniswap
-  - After the curve target is hit, tokens move to Uniswap Trade for broader market access.
+  - Get rewarded with XP on every trade and interaction. XP holders receive 30% of Kensei's revenue.
+- Automatic Listing on Liquidswap
+  - After the curve target is hit, tokens move to Liquidswap Trade for broader market access.
 - Transparent & Fair Launches
-  - Uponly is a decentralized and transparent platform where token prices increase with demand, enabling fair and open price discovery.
+  - Kensei is a decentralized and transparent platform where token prices increase with demand, enabling fair and open price discovery.
