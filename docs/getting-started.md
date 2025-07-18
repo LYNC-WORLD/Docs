@@ -11,7 +11,7 @@ custom_edit_url: null
 To create and trade meme tokens on [Kensei](https://kensei.one/), you need to connect your wallet first.
 
 <div className="flex flex-col items-center">
-    <img src="/img/kensei/Connect-btn.png"/>
+    <img src="/img/kensei/connect-btn.png"/>
     <span className="font-bold text-[rgb(192,192,192)]">"Connect Wallet" button</span>
 </div>
 
