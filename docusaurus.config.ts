@@ -106,48 +106,7 @@ const config: Config = {
       ],
     },
     footer: {
-      // style: 'dark',
-      links: [
-        {
-          title: "Docs",
-          items: [
-            {
-              label: "Introduction",
-              to: "/docs/lync-introduction",
-            },
-          ],
-        },
-        {
-          title: "Community",
-          items: [
-            // {
-            //   label: 'Stack Overflow',
-            //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            // },
-            {
-              label: "Discord",
-              href: "https://discord.com/invite/lyncworld",
-            },
-            {
-              label: "X",
-              href: "https://x.com/Lyncworld",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            // {
-            //   label: 'Blog',
-            //   to: '/blog',
-            // },
-            {
-              label: "GitHub",
-              href: "https://github.com/LYNC-WORLD",
-            },
-          ],
-        },
-      ],
+      style: "dark",
       copyright: `Copyright © ${new Date().getFullYear()} LYNC World`,
     },
     prism: {
