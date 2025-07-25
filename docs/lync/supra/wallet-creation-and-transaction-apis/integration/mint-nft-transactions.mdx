@@ -1,0 +1,19 @@
+---
+sidebar_label: Mint NFT transactions
+id: "mint-nft-transactions"
+hide_table_of_contents: true
+custom_edit_url: null
+---
+
+# Mint NFT transactions
+
+```bash
+POST https://server-supra-sdk.lync.world/api/v1/nft/mint-nft
+```
+
+This endpoint facilitates the minting of a new Non-Fungible Token (NFT) on the Aptos blockchain. Users can mint a new NFT by specifying some contract information, such as the contract address, contract name, function name, arguments, and other properties. This endpoint requires api key authentication and the necessary transaction parameters, including the wallet address initiating the minting process.
+
+import { MintNFTTransactions } from "@site/src/components/SUPRA/MintNFTTransactions";
+import BrowserOnly from "@docusaurus/BrowserOnly";
+
+<BrowserOnly>{() => <MintNFTTransactions />}</BrowserOnly>

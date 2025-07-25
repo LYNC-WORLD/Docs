@@ -1,0 +1,19 @@
+---
+sidebar_label: Get Already Created Wallet
+id: "get-already-created-wallet"
+hide_table_of_contents: true
+custom_edit_url: null
+---
+
+# Get already created wallet
+
+```bash
+POST https://creatorserver.lync.world/metis/get-wallet
+```
+
+This endpoint allows the retrieval of an existing wallet using the email ID of the user and the network on which the account exists. When a wallet is created using the create API, it is associated with an email address that can be used to retrieve the wallet details, including the wallet address and private key. This endpoint requires the email of the user and network on which the account needs to be created for wallet creation and x-api-key and LYNC's API key for request validation.
+
+import { GetAlreadyCreatedWallet } from "@site/src/components/METIS/GetAlreadyCreatedWallet";
+import BrowserOnly from "@docusaurus/BrowserOnly";
+
+<BrowserOnly>{() => <GetAlreadyCreatedWallet />}</BrowserOnly>

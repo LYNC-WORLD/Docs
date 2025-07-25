@@ -109,46 +109,46 @@ const PRODUCTS = {
   firstLine: [
     {
       text: "Smart Wallet & Paymaster",
-      url: "/docs/lync-introduction",
+      url: "/lync",
       icon: "/img/wallet.svg",
     },
     {
       text: "Payments",
-      url: "/docs/lync-introduction",
+      url: "/lync",
       icon: "/img/payment.svg",
     },
   ],
   secondLine: [
     {
       text: "AI Agent",
-      url: "/docs/lync-introduction",
+      url: "/lync",
       icon: "/img/ai_agent.svg",
     },
     {
       text: "Tokenization Tools",
-      url: "/docs/lync-introduction",
+      url: "/lync",
       icon: "/img/tokenization.svg",
     },
   ],
   mobileViewCombined: [
     {
       text: "AI Agent",
-      url: "/docs/lync-introduction",
+      url: "/lync",
       icon: "/img/ai_agent.svg",
     },
     {
       text: "Payments",
-      url: "/docs/lync-introduction",
+      url: "/lync",
       icon: "/img/payment.svg",
     },
     {
       text: "Tokenization Tools",
-      url: "/docs/lync-introduction",
+      url: "/lync",
       icon: "/img/tokenization.svg",
     },
     {
       text: "Smart Wallet & Paymaster",
-      url: "/docs/lync-introduction",
+      url: "/lync",
       icon: "/img/wallet.svg",
     },
   ],
@@ -247,7 +247,7 @@ export default function Home(): ReactNode {
               </p>
 
               <Link
-                to="/docs/lync-introduction"
+                to="/lync"
                 className="font-grotesk font-medium lg:text-lg lg:leading-[19.8px]">
                 View All
               </Link>
@@ -290,9 +290,8 @@ export default function Home(): ReactNode {
           <div className="w-full px-3 md:w-[75%] lg:w-[80%]">
             <div className="flex justify-between flex-col lg:flex-row w-full gap-5 items-center">
               <Link
-                to="/docs/lync-introduction"
-                className="flex justify-between items-center gap-2 hover:no-underline cursor-pointer transition-all duration-200 box-border w-full self-stretch lg:w-full rounded-lg backdrop-blur-[27px] bg-[rgba(0,0,0,0.5)] hover:bg-[rgba(0,0,0,0.4)] p-4  custom500:p-6   border-[1px] border-solid border-[rgba(255,255,255,0.25)] hover:border-[rgba(255,255,255,0.8)] font-normal text-sm lg:text-base relative overflow-hidden  lg:leading-[20px] text-white"
-              >
+                to="/lync"
+                className="flex justify-between items-center gap-2 hover:no-underline cursor-pointer transition-all duration-200 box-border w-full self-stretch lg:w-full rounded-lg backdrop-blur-[27px] bg-[rgba(0,0,0,0.5)] hover:bg-[rgba(0,0,0,0.4)] p-4  custom500:p-6   border-[1px] border-solid border-[rgba(255,255,255,0.25)] hover:border-[rgba(255,255,255,0.8)] font-normal text-sm lg:text-base relative overflow-hidden  lg:leading-[20px] text-white">
                 <img
                   src="img/chain_bg_img.png"
                   alt="Background"
@@ -344,9 +343,8 @@ export default function Home(): ReactNode {
                 </div>
               </Link>
               <Link
-                to="/docs/lync-introduction"
-                className="flex justify-between items-center gap-2 hover:no-underline cursor-pointer transition-all duration-200 box-border w-full self-stretch lg:w-full rounded-lg backdrop-blur-[27px] bg-[rgba(0,0,0,0.5)] hover:bg-[rgba(0,0,0,0.4)] p-4  custom500:p-6  border-[1px] border-solid border-[rgba(255,255,255,0.25)] hover:border-[rgba(255,255,255,0.8)] font-normal text-sm lg:text-base lg:leading-[20px] text-white overflow-hidden relative"
-              >
+                to="/lync"
+                className="flex justify-between items-center gap-2 hover:no-underline cursor-pointer transition-all duration-200 box-border w-full self-stretch lg:w-full rounded-lg backdrop-blur-[27px] bg-[rgba(0,0,0,0.5)] hover:bg-[rgba(0,0,0,0.4)] p-4  custom500:p-6  border-[1px] border-solid border-[rgba(255,255,255,0.25)] hover:border-[rgba(255,255,255,0.8)] font-normal text-sm lg:text-base lg:leading-[20px] text-white overflow-hidden relative">
                 <img
                   src="img/chain_bg_img.png"
                   alt="Background"
