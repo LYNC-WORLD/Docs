@@ -41,6 +41,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
+          routeBasePath: "/", // Serve docs at site root
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
         },
@@ -113,7 +114,7 @@ const config: Config = {
           items: [
             {
               label: "Introduction",
-              to: "/docs/lync-introduction",
+              to: "/lync",
             },
           ],
         },
