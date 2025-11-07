@@ -90,6 +90,39 @@ const sidebars: SidebarsConfig = {
             "PRODUCTS/telegram/telegram-deploy",
           ],
         },
+        {
+          type: "category",
+          label: "Launchpad SDK",
+          link: {
+            type: "doc",
+            id: "PRODUCTS/launchpad-sdk/launchpad-sdk",
+          },
+          items: [
+            "PRODUCTS/launchpad-sdk/launchpad-sdk-getting-started",
+            {
+              type: "category",
+              label: "Using the SDK",
+              link: {
+                type: "doc",
+                id: "PRODUCTS/launchpad-sdk/using-the-sdk/launchpad-sdk-using-the-sdk",
+              },
+              items: [
+                "PRODUCTS/launchpad-sdk/using-the-sdk/launchpad-sdk-using-the-sdk-setup-sdk",
+                "PRODUCTS/launchpad-sdk/using-the-sdk/launchpad-sdk-using-the-sdk-create-new-token",
+                "PRODUCTS/launchpad-sdk/using-the-sdk/launchpad-sdk-using-the-sdk-preview-token-trades",
+                "PRODUCTS/launchpad-sdk/using-the-sdk/launchpad-sdk-using-the-sdk-trade-token",
+                "PRODUCTS/launchpad-sdk/using-the-sdk/launchpad-sdk-update-fee-details",
+                "PRODUCTS/launchpad-sdk/using-the-sdk/launchpad-sdk-get-all-tokens",
+                "PRODUCTS/launchpad-sdk/using-the-sdk/launchpad-sdk-get-sorted-tokens",
+                "PRODUCTS/launchpad-sdk/using-the-sdk/launchpad-sdk-get-token-trades",
+                "PRODUCTS/launchpad-sdk/using-the-sdk/launchpad-sdk-get-token-details",
+                "PRODUCTS/launchpad-sdk/using-the-sdk/launchpad-sdk-get-token-graph-data",
+              ],
+            },
+            "PRODUCTS/launchpad-sdk/launchpad-sdk-supported-chains",
+            "PRODUCTS/launchpad-sdk/launchpad-sdk-support",
+          ],
+        },
       ],
     },
     // {
