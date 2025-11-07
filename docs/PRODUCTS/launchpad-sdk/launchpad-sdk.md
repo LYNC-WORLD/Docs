@@ -46,9 +46,9 @@ Introducing Launchpad NPM SDK. Powered by LYNC, Launchpad NPM SDK allows develop
 
 <div className="flex items-center flex-col mb-5">
 
-    <a href="https://github.com/LYNC-WORLD/metamask-connect-sdk" target="_blank" className="mb-5 w-full border-[0.5px] hover:border-[rgb(135,135,135)] cursor-pointer border-[rgb(91,91,91)] border-solid rounded-[.25rem] flex items-center justify-between px-5 py-2">
+    <a href="https://github.com/LYNC-WORLD/LYNC-launchpad-SDK" target="_blank" className="mb-5 w-full border-[0.5px] hover:border-[rgb(135,135,135)] cursor-pointer border-[rgb(91,91,91)] border-solid rounded-[.25rem] flex items-center justify-between px-5 py-2">
         <div className="flex items-center gap-4">
-            <span className="mt-1">https://github.com/LYNC-WORLD/metamask-connect-sdk</span>
+            <span className="mt-1">https://github.com/LYNC-WORLD/LYNC-launchpad-SDK</span>
         </div>
         <div>
             <img className="w-3 mt-2" src="/img/arrow.svg" alt="" />
@@ -62,9 +62,9 @@ Introducing Launchpad NPM SDK. Powered by LYNC, Launchpad NPM SDK allows develop
 
 <div className="flex items-center flex-col mb-5">
 
-    <a href="https://github.com/LYNC-WORLD/metamask-connect-sdk/tree/main/examples" target="_blank" className="mb-5 w-full border-[0.5px] hover:border-[rgb(135,135,135)] cursor-pointer border-[rgb(91,91,91)] border-solid rounded-[.25rem] flex items-center justify-between px-5 py-2">
+    <a href="https://github.com/LYNC-WORLD/Launchpad-SDK-Demo" target="_blank" className="mb-5 w-full border-[0.5px] hover:border-[rgb(135,135,135)] cursor-pointer border-[rgb(91,91,91)] border-solid rounded-[.25rem] flex items-center justify-between px-5 py-2">
         <div className="flex items-center gap-4">
-            <span className="mt-1">https://github.com/LYNC-WORLD/metamask-connect-sdk/tree/main/examples</span>
+            <span className="mt-1">https://github.com/LYNC-WORLD/Launchpad-SDK-Demo</span>
         </div>
         <div>
             <img className="w-3 mt-2" src="/img/arrow.svg" alt="" />
