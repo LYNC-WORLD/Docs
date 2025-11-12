@@ -12,7 +12,7 @@ Introducing Launchpad NPM SDK. Powered by LYNC, Launchpad NPM SDK allows develop
 
 <div className="flex items-center flex-col mb-5">
 
-    <a href="https://metamask-example.lync.world/" target="_blank" className="mb-5 w-full border-[0.5px] hover:border-[rgb(135,135,135)] cursor-pointer border-[rgb(91,91,91)] border-solid rounded-[.25rem] flex items-center justify-between px-5 py-2">
+    <a href="https://launchpad-sdk-demo.vercel.app/" target="_blank" className="mb-5 w-full border-[0.5px] hover:border-[rgb(135,135,135)] cursor-pointer border-[rgb(91,91,91)] border-solid rounded-[.25rem] flex items-center justify-between px-5 py-2">
         <div className="flex items-center gap-4">
             <img className="w-10" src="/img/lync-logo.png" alt="" />
             <span className="mt-1">Launchpad SDK Integration Example | LYNC</span>
@@ -29,9 +29,9 @@ Introducing Launchpad NPM SDK. Powered by LYNC, Launchpad NPM SDK allows develop
 
 <div className="flex items-center flex-col mb-5">
 
-    <a href="https://www.npmjs.com/package/lync-wallet-sdk" target="_blank" className="mb-5 w-full border-[0.5px] hover:border-[rgb(135,135,135)] cursor-pointer border-[rgb(91,91,91)] border-solid rounded-[.25rem] flex items-center justify-between px-5 py-2">
+    <a href="https://www.npmjs.com/package/lync-launchpad-sdk" target="_blank" className="mb-5 w-full border-[0.5px] hover:border-[rgb(135,135,135)] cursor-pointer border-[rgb(91,91,91)] border-solid rounded-[.25rem] flex items-center justify-between px-5 py-2">
         <div className="flex items-center gap-4">
-            <span className="mt-1">https://www.npmjs.com/package/lync-wallet-sdk</span>
+            <span className="mt-1">https://www.npmjs.com/package/lync-launchpad-sdk</span>
         </div>
 
         <div>
